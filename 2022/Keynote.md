@@ -1,0 +1,200 @@
+iOS 16
+- Lock screen
+    - Personalized home screen
+        - color filter styles/font/etc.
+        - add widgets to the home screen
+        - Multiple home screens
+    - Notifications redesigned
+        - Live activities
+            - API to create compact experiences for notifications
+- Focus
+    - extended to the lock screen
+        - home screens can be matched with a focus mode
+    - focus filters in app
+        - Focus filter API
+- Messages
+    - Ability to edit messages
+    - Ability to undo send messages
+    - Mark a thread as unread
+- Shared with you API
+- SharePlay added to messages
+- Dictation updates
+    - keyboard stays open when using voice dictation to switch between voice and text input
+- App Intents API
+- Live Text/Visual lookup
+    - Added to video: pause video, can interact with text on screen
+    - new interactions abilities
+    - Translate app has camera view to interact with text
+    - Live Text API
+    - Touch/hold on an image in a photo, and pull that object out of the photo
+- Wallet
+    - In-app verifications without providing actual personal details
+    - Key sharing allowed via mail/messages/etc. (including to other platforms)
+    - Apple Pay Later - split the cost of a purchase into four payments without fees or interest
+    - Apple Pay order tracking directly to wallet
+- Maps
+    - updated 3D navigation/graphics
+    - multi-stop routing!
+    - city experience API
+    - street view API
+    - brand new server side APIs
+- Apple News 🙃
+    - new My Sports section
+- Family Sharing
+    - improvements to managing accounts for kids (because trust me, it couldn’t be worse)
+    - respond to request for screen time in messages
+    - family checklist
+- Photos
+    - iCloud shared family photo library
+        - can send photos straight to it in the camera app
+        - auto share photos with people in your photos (can be turned on/off)
+        - everyone has equal permission in the shared library
+- Privacy
+    - Safety check
+        - allow people to quickly revoke access to info from others when they are in situations where personal safety is an issue
+- Home
+    - matter integration for cross-platform integration
+    - all new home app (that hopefully also doesn’t really suck)
+    - new lock screen widgets
+- CarPlay
+    - Goddamn it I’m gonna finally have to spend $500 to have this installed on my car, aren’t I 😑
+    - Powers entire instrument cluster
+- Quick note
+- iPhone 8 or later
+- new mail app
+    - schedule messages for later
+    - Remind me later
+    - follow up suggestions
+    - new search
+
+watchOS
+- new watch faces. No one will use any of them with the exception of maybe Metropolitan
+- new Siri UI
+- banner notifications
+- new share sheet/photos picker API
+- Workout app
+    - new running form metrics
+    - heart rate zones, other views during workout
+    - new custom workout
+    - workout gives you feedback to help you achieve goals/match other runs
+    - FINALLY view fitness rings in the workout app
+    - auto switch between swimming/cycling/running in triathlons
+- Fitness app in iOS 16 available to all iPhone users
+    - track steps/workouts from other apps to fill move goal ring
+- Sleep stages
+    - shows which stage of sleep you were in at different times
+- New AFIB history info
+    - expect to receive FDA approval soon (spoiler, pre-recorded video - it happened this morning 😄)
+- Medications
+    - medications reminders
+    - can also track in the health app
+    - can scan medications to scan label
+    - create schedule
+    - drug interaction alerts when new medications added and there is an interaction
+    - sharing to help keep track of others
+- Supports series 4 and newer
+
+Mac
+- M2
+    - Up to 24GB Memory
+    - 8 core, 4 high performance, 4 efficiency
+    - 18% faster than M1
+    - up to 10 core GPU
+        - 25% more graphics performance at same power of M1, 35% higher total at it’s max power
+    - 50% more memory bandwidth
+- Macbook Air
+    - M2
+    - magsafe + 2 TB ports
+    - 13.6” display
+    - new 1080p less sucky camera
+    - fast charge
+- 13” Macbook Pro
+    - Same as above, but with fans and a Touch Bar
+
+macOS
+- macOS Ventura (pet detective?)
+- Stage Manager
+    - arranges windows off to the side, puts current app front and center
+    - clicking on a different app switches it from the side to the center
+    - multiple open windows for an app are arranged in a pile, you can cycle through them just by clicking
+    - overlapping windows and multiple apps open at a time
+        - paired apps/windows
+- Spotlight
+    - can run actions (start timer, etc)
+    - live text within search results
+    - media info added (movies, music, sports)
+        - also coming to iOS/iPadOS
+        - spotlight added to bottom of the iOS home screen 🤔
+- Mail
+    - undo send
+    - scheduled send
+    - follow up suggestions (auto-reminders to follow up if no response)
+    - message reminders
+    - updated search
+        - recently shared docs/links/more
+        - auto suggestions on search
+        - only showing results for correct spelling
+        - looks for synonyms
+            - also on iOS/iPadOS
+- Safari
+    - Shared tab groups
+        - share a tab groups with others
+            - everyone can add new tabs
+            - see what tabs are being viewed
+    - Passkeys
+        - passwordless accounts, working with FIDO
+        - use Touch ID/Face ID to authenticate
+        - can’t be phished, because the passkey never leaves the device
+        - securely synced using iCloud keychain
+- Gaming
+    - I guess it’s _kinda_ a thing on macs (not really)
+    - Metal 3
+        - MetalFX Upscaling - renders smaller frames and then aggregates them
+        - Fast resource loading API
+- Continuity
+    - mac auto-recognizes call on an iPhone, offers to switch
+        - works on all devices
+    - Continuity camera - use iPhone as webcam
+        - uses MagSafe stand that will probably cost $99
+
+iPadOS
+- A (finally) weather app
+- WeatherKit API
+- Collaboration
+    - can select a messages group automatically to collaborate on a document
+    - can collaborate on document directly in FaceTime
+    - more tab group stuff
+    - Freeform app (coming later)
+        - whiteboard app, shows live cursors
+        - jump right to where someone is on the board
+        - pinch in/out to zoom in, or add more space
+        - uses Apple Pencil
+        - can add documents/images/web links into whiteboard
+        - will be on iOS/iPadOS/macOS
+- Same Metal updates as macOS
+- New API to background download large assets
+- Game Center updates
+    - see what friends are doing/see their achievements
+    - SharePlay added
+    - Can’t wait to also never use these features
+- Desktop-class apps
+    - undo/redo across the system
+    - availability view in calendar
+    - new document menu
+    - find/merge cards and make lists in contacts
+    - lots of additions to Files app
+    - redesigned find/replace experience
+    - customizable toolbars
+    - new APIs for many (all?) of the above
+    - reference color mode
+        - provides consistent color mode across multiple devices
+- M1 only
+    - New display scaling setting
+    - virtual memory swap
+- Stage Manager 
+    - everything from macOS
+    - full external display support
+    - resize windows on iPad
+    - Overlapping windows 😍
+    - Can use cursor to control windows on external display
+    - Create sets of up to 4 apps per display
