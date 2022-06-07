@@ -1,7 +1,7 @@
 State of the platform
 
 Xcode Cloud available today
-￼![](xcode_cloud.png)
+￼![](images/xcode_cloud.png)
 
 Vision for Platforms
 - Swift
