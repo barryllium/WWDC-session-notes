@@ -9,7 +9,7 @@
 	* Swift website
 	* C++ Interopability
 * Mentorships available
-![](images/mentorships.png)
+![](images/swift/mentorships.png)
 * Standard library smaller, dropped dependency on third party unicode library, replaced with native library
 
 **Swift Packaging**
@@ -24,14 +24,14 @@
 	* Build tool plugins
 		* provide scalable way for packages to define plugins that can implement additional build steps
 		* examples - source code generation, resource processing
-![](images/build_plugin1.png)
-![](images/build_plugin2.png)
+![](images/swift/build_plugin1.png)
+![](images/swift/build_plugin2.png)
 	
 **Performance Improvements**
 
 * Module disambiguation
 	* allows you to rename modules from outside the packages that define them. 
-![](images/module_disambiguation.png)
+![](images/swift/module_disambiguation.png)
 * Swift driver settings
 	* Integrated compiler
 	* Eager compilation
@@ -51,11 +51,11 @@
 * Extensions to the model
 	* Data race avoidance
 		* Eliminate data races using Swift concurrency #session
-	![](images/concurrency1.png)
-	![](images/concurrency2.png)
+	![](images/swift/concurrency1.png)
+	![](images/swift/concurrency2.png)
 * Distributed actors
 	* actors for code that can be between processes or even devices
-	![](images/distributed_actors.png)
+	![](images/swift/distributed_actors.png)
 	* Distrubuted Actors package
 		* Makes distributed systems in Swift easier to write
 		* Integrated networking solution
@@ -75,19 +75,19 @@
 **Expressive Swift**
 
 * Unwrapping optionals - old code vs. new code:
-![](images/unwrapping1.png)
-![](images/unwrapping2.png)
+![](images/swift/unwrapping1.png)
+![](images/swift/unwrapping2.png)
 	* works with guard and while as well
 * Closure type inference
 	* Have to define your closure result type less often now - `type in -> [String]` becomes `type in`
 	* Permitted pointer conversions
-	![](images/pointer_conversions.png)
+	![](images/swift/pointer_conversions.png)
 * String parsing
 	* Regex literals: old code vs. new code:
-	![](images/regex1.png)
-	![](images/regex2.png)
+	![](images/swift/regex1.png)
+	![](images/swift/regex2.png)
 	* Or, even more readable - use RegexBuilder
-	![](images/regex_builder.png)
+	![](images/swift/regex_builder.png)
 		* You can turn a regex into a reusable regex component (similar to turning a SwiftUI hierarchy into a view)
 		* Support dropping string literals right into a builder without special characters
 		* Can use regex literals in the middle of a builder
@@ -97,12 +97,12 @@
 			* iOS 16 only
 * Generic code clarity
 	* `any` keyword to make code more readable and define conformance
-	![](images/generics1.png)
-	![](images/generics2.png)
-	![](images/generics3.png)
+	![](images/swift/generics1.png)
+	![](images/swift/generics2.png)
+	![](images/swift/generics3.png)
 	* Primary associated types
 		* can put the element type of any collection in angle brackets using the `any` keyword
-	![](images/primary_type.png)
+	![](images/swift/primary_type.png)
 	* Improvements to any types
 		* The `any` keyword
 		* Pass to generic arguments
@@ -110,7 +110,7 @@
 		* Primary associated types
 		* **but** you still shouldn't use them when generics will work
 			* to make generic code easier to write, you can now use the `some` keyword: old code vs. new code
-			![](images/generic_some1.png)
-			![](images/generic_some2.png)
+			![](images/swift/generic_some1.png)
+			![](images/swift/generic_some2.png)
 	* Embrace Swift generics #session
 	* Design protocol interfaces in Swift #session	
