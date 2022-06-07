@@ -1,4 +1,4 @@
-State of the platform
+#**State of the platform**
 
 Xcode Cloud available today
 ￼![](images/xcode_cloud.png)
