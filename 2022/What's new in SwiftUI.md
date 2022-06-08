@@ -10,6 +10,7 @@
 * Hello Swift Charts #session
 * Swift Charts: Rais the bar #session
 
+---
 
 **Navigation and windows**
 
@@ -48,6 +49,7 @@
 	* Menubar extras (for macOS) can be built entirely in SwiftUI
 	* Bring multiple windows to your SwiftUI app #session
 
+---
 
 **Advanced controls**
 
@@ -89,6 +91,7 @@
 	* What's new in iPad app design
 	* SwiftUI on the Mac: Build the fundamentals
 
+---
 
 **Sharing**
 
@@ -117,6 +120,7 @@
 	![](images/swiftUI/transferable.png)
 	* Meet Transferable #session
 
+---
 
 **Graphics and layout**
 
