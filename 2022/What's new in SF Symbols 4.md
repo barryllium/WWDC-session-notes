@@ -1,6 +1,6 @@
 # **What's new in SF Symbols 4**
 
-**New Symbols**
+### **New Symbols**
 * New additions
 	* home, furniture, appliances, and health
 	* fitness figures are now available
@@ -16,7 +16,7 @@
 
 ---
 
-**Rendering modes**
+### **Rendering modes**
 * Four rendering modes
 	* monochrome - uniform and consistent look
 	* Hierarchical - provides a subtle emphasis while having a single color hue drive the overall aesthetic
@@ -30,7 +30,7 @@
 
 ---
 
-**Variable Color**
+### **Variable Color**
 * Paths of symbol are arranged into layers, in sequential order, to allow levels of strength or sequence over time
 * Differing behaviors depending on the symbol
 	* Some symbols have all paths participate in the sequence
@@ -42,7 +42,7 @@
 
 ---
 
-**Unified annotations**
+### **Unified annotations**
 * layers must be ordered in z-order
 * Draw and erase:
 	* draw mode will, draw option will draw the path contained in the layer (layers 1 - 3 below)

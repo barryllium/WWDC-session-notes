@@ -1,6 +1,6 @@
 # **What's new in Swift**
 
-**Community update**
+### **Community update**
 
 * DocC and Swift.org open sourced
 * Workgroup support for
@@ -14,7 +14,7 @@
 
 ---
 
-**Swift Packaging**
+### **Swift Packaging**
 
 * SPM has added "trust on first use" (TOFU) for downloading package for increased security
 * Package Plugins
@@ -31,7 +31,7 @@
 
 ---
 	
-**Performance Improvements**
+### **Performance Improvements**
 
 * Module disambiguation
 	* allows you to rename modules from outside the packages that define them. 
@@ -50,7 +50,7 @@
 
 ---
 
-**Concurrency**
+### **Concurrency**
 
 * Improvements to the concurrency model
 	* Back deployed to iOS 13
@@ -80,7 +80,7 @@
 
 ---
 
-**Expressive Swift**
+### **Expressive Swift**
 
 * Unwrapping optionals - old code vs. new code below
 	* works with guard and while as well

@@ -1,18 +1,18 @@
 # **The SwiftUI cookbook for navigation**
 
-**New navigation APIs**
-* NavigationStack
-	* for push/pop behavior
+### **New navigation APIs**
+**NavigationStack**
+* for push/pop behavior
 ```
 NavigationStack(path: Spath) {
 	RecipeDetail()
 }
 ```
 
-* NavigationSplitView
-	* Multi-column apps
-	* Automatically adapts to single column stack in compact widths
-	* Two sets of initializers for two and three column views
+**NavigationSplitView**
+* Multi-column apps
+* Automatically adapts to single column stack in compact widths
+* Two sets of initializers for two and three column views
 ```
 NavigationSplitView {
 	RecipeCategories()
@@ -31,8 +31,8 @@ NavigationSplitView{
 }
 ```
 
-* 	NavigationLink varieties
-	*  New init takes a value instead of the view
+**NavigationLink varieties**
+*  New init takes a value instead of the view
 
 ```
 NavigationLink( "Show detail") {
@@ -43,7 +43,8 @@ NavigationLink("Apple Pie", value: applePieRecipe)
 ```
 ___
  
-**Recipes for navigation**
+### **Recipes for navigation**
+
 * As you add more views to the stack, NavigationStack pushes another view, keeping track of the path and pushed views
 	* Back button removes the last item from the stack and pushed views
 	* Path uses new NavigationPathCollection
@@ -178,7 +179,8 @@ struct RecipeGrid: View {
 
 ---
 
-**Persistent state**
+### **Persistent state**
+
 * Uses Codable and SceneStorage
 	1. 	Move navigation state into a model type
 ```
@@ -253,12 +255,12 @@ var body: some View {
 
 ---
 
-* Navigation tips
-	* NavigationView with stack style -> NavigationStack
-	* NavigationView with multiple columns -> NavigationSplitView
-	* `NavigationLink(... isActive: ...)` and `NavigationLink(... tag: ... selection: ...) -> NavigationLink(... value: ...)
-		* old style is deprecated
-	* [https://developer.apple.com/documentation/swiftui/migrating-to-new-navigation-types](Migrating to new navigation types)
-	* Compose NavigationSplitView, NavigationStack, and List
-	* Put navigationDestination modifiers within easy reach, but not inside lazy containers
-	* Start with NavigationSplitView when it makes sense (even on iPhone)
+### **Navigation tips**
+* NavigationView with stack style -> NavigationStack
+* NavigationView with multiple columns -> NavigationSplitView
+* `NavigationLink(... isActive: ...)` and `NavigationLink(... tag: ... selection: ...) -> NavigationLink(... value: ...)
+	* old style is deprecated
+* [https://developer.apple.com/documentation/swiftui/migrating-to-new-navigation-types](Migrating to new navigation types)
+* Compose NavigationSplitView, NavigationStack, and List
+* Put navigationDestination modifiers within easy reach, but not inside lazy containers
+* Start with NavigationSplitView when it makes sense (even on iPhone)

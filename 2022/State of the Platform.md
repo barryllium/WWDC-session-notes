@@ -5,7 +5,7 @@ Xcode Cloud available today
 
 ---
 
-Vision for Platforms
+### **Vision for Platforms**
 - Swift
     - Concurrency
         - new open source package Async Algorithms
@@ -40,7 +40,7 @@ Vision for Platforms
 
 ---
 
-System Experience
+### **System Experience**
 - Home screen widgets
     - circular
     - rectangular
@@ -68,7 +68,7 @@ System Experience
 
 ---
 
-New APIs
+### **New APIs**
 - iPadOS
     - Get new Find/Replace UI for free
     - DriverKit

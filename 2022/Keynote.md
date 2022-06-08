@@ -2,7 +2,7 @@
 
 ---
 
-iOS 16
+### **iOS 16**
 - Lock screen
     - Personalized home screen
         - color filter styles/font/etc.
@@ -73,7 +73,7 @@ iOS 16
 
 ---
 
-watchOS
+### **watchOS**
 - new watch faces. No one will use any of them with the exception of maybe Metropolitan
 - new Siri UI
 - banner notifications
@@ -102,7 +102,7 @@ watchOS
 
 ---
 
-Mac
+### **Mac**
 - M2
     - Up to 24GB Memory
     - 8 core, 4 high performance, 4 efficiency
@@ -121,7 +121,7 @@ Mac
 
 ---
 
-macOS
+### **macOS**
 - macOS Ventura (pet detective?)
 - Stage Manager
     - arranges windows off to the side, puts current app front and center
@@ -169,7 +169,7 @@ macOS
 
 ---
 
-iPadOS
+### **iPadOS**
 - A (finally) weather app
 - WeatherKit API
 - Collaboration
