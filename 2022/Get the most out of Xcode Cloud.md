@@ -21,12 +21,15 @@ Dashboard
 ### **Xcode Cloud usage dashboard**
 
 Usage Overview
+
 ![](images/xcodeCloud/usage_overview.png)
 
 Usage Trends
+
 ![](images/xcodeCloud/usage_trends.png)
 
 You can see how much time each of the workflows is using
+
 ![](images/xcodeCloud/usage_workflows.png)
 
 ---
