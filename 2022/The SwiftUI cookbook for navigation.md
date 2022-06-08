@@ -20,6 +20,7 @@ NavigationSplitView {
 	RecipeGrid()
 }
 ```
+
 ```
 NavigationSplitView{
 	RecipeCategories()
@@ -40,12 +41,13 @@ NavigationLink( "Show detail") {
 
 NavigationLink("Apple Pie", value: applePieRecipe)
 ```
-
-
+___
+ 
 **Recipes for navigation**
 * As you add more views to the stack, NavigationStack pushes another view, keeping track of the path and pushed views
 	* Back button removes the last item from the stack and pushed views
 	* Path uses new NavigationPathCollection
+
 ```
 @State private var path: [Recipe] = []
 
@@ -65,21 +67,26 @@ var body: some View {
 	}
 }
 ```
-	* NavigationStack in action:
-| ![](images/navigation/stack_1.png) | ![](images/navigation/stack_2.png) | ![](images/navigation/stack_3.png) |
-	* Can add a method to jump to any view
+
+* NavigationStack in action:
+	
+Stack Start | Push first view | Push second view
+----------- | --------------- | ----------------
+![](images/navigation/stack_1.png) | ![](images/navigation/stack_2.png) | ![](images/navigation/stack_3.png)
+
+* Can add a method to jump to any view
 ```
 func showRecipeOfTheDay() {
 	path = [dataModel.recipeOfTheDay]
 }
 ```
-	* Can add another method to jump back to the root
+* Can add another method to jump back to the root
 ```
 func popToRoot() {
 	path.removeAll()
 }
 ```
-	* Build a productivity app for Apple Watch #session
+* Build a productivity app for Apple Watch #session
 
 * NavigationSplitView example
 	* use state to keep track of selected item from main list
@@ -117,7 +124,7 @@ var body: some View {
 	}
 }
 ```
-	* can also navigate to any view in the split view programmatically
+* can also navigate to any view in the split view programmatically
 ```
 func showRecipeOfTheDay() {
 	let recipe = dataModel.recipeOfTheDay
@@ -125,7 +132,7 @@ func showRecipeOfTheDay() {
 	selectedRecipe = recipe
 }
 ```
-	* programmatic changes apply properly to compact views, despite collapsing to a stack
+* programmatic changes apply properly to compact views, despite collapsing to a stack
 
 * NavigationSplitView with NavigationStack
 	* Can put a NavigationStack inside the detail of a NavigationSplitView
@@ -146,7 +153,7 @@ var body: some View {
 	}
 }
 ```
-	* `.navigationDestination` should be attached to the scrollView, not to the NavigationLink
+* `.navigationDestination` should be attached to the scrollView, not to the NavigationLink
 		* Lazy containers like List, Table, LazyVGrid don't load all views immediately
 		* would be repeated for every item in the Grid
 ```
@@ -169,6 +176,7 @@ struct RecipeGrid: View {
 }
 ```
 
+---
 
 **Persistent state**
 * Uses Codable and SceneStorage
@@ -194,7 +202,7 @@ var body: some View {
 	}
 }
 ```
-	2. Make the navigation model codable
+2. Make the navigation model codable
 		* Don't store entire model value
 			* Repeated information
 			* Can change independently
@@ -224,7 +232,7 @@ class NavigationModel: ObservableObject, Codable {
 	var jsonData: Data? { ... }
 }
 ```
-	3. Use SceneStorage to save and restore
+3. Use SceneStorage to save and restore
 ```
 @StateObject private var navModel = NavigationModel()
 @SceneStorage ("navigation") private var data: Data?
@@ -242,7 +250,8 @@ var body: some View {
 	}
 }
 ```
-	
+
+---
 
 * Navigation tips
 	* NavigationView with stack style -> NavigationStack
