@@ -7,11 +7,15 @@
 * Iteration can throw
 * Meet AsyncSequence #session from 2021
 
+---
+
 ### **Swift Async Algorithms Overview**
 
 * open source package
 * augment swift concurrency
 * Swift algorithms package - Meet the Swift Algorithms and Collections packages #session from 2021
+
+---
 
 ### **Multi-input algorithms**
 
@@ -44,7 +48,9 @@ for try await message in merge (primaryAccount.messages, secondaryAccount.messag
 	displayPreview(message)
 }
 ```
- 
+
+---
+
 ### **Clock, instant, duration**
 
 **Clock**
