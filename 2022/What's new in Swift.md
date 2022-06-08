@@ -132,6 +132,13 @@ func parseLine( line: Substring) throws -> MailmapEntry {
 }
 ```
 * Or, even more readable - use RegexBuilder
+	* You can turn a regex into a reusable regex component (similar to turning a SwiftUI hierarchy into a view)
+	* Support dropping string literals right into a builder without special characters
+	* Can use regex literals in the middle of a builder
+	* Types like dates can integrate custom parsing logic with regex builders, and even convert the data to a richer type before capturing it
+	* Swift Regex is an open source custom engine
+		* Literal dialect based on UTS #18 with extensions
+		* iOS 16 only
 ```
 import RegexBuilder
 
@@ -154,29 +161,78 @@ let regex = Regex {
 }
 ```
 
-		* You can turn a regex into a reusable regex component (similar to turning a SwiftUI hierarchy into a view)
-		* Support dropping string literals right into a builder without special characters
-		* Can use regex literals in the middle of a builder
-		* Types like dates can integrate custom parsing logic with regex builders, and even convert the data to a richer type before capturing it
-		* Swift Regex is an open source custom engine
-			* Literal dialect based on UTS #18 with extensions
-			* iOS 16 only
-* Generic code clarity
-	* `any` keyword to make code more readable and define conformance
-	![](images/swift/generics1.png)
-	![](images/swift/generics2.png)
-	![](images/swift/generics3.png)
-	* Primary associated types
-		* can put the element type of any collection in angle brackets using the `any` keyword
+**Generic code clarity**
+* `any` keyword to make code more readable and define conformance
+```
+/// Used in the commit list UI
+struct HashedMailmap {
+	var replacementNames: [String:String] = [:]
+}
+
+/// Used in the mailmap editor UI
+struct OrderedMailmap {
+	var entries: [MailmapEntrv] = []
+}
+protocol Mailmap {
+	mutating func addEntry(_ entry: MailmapEntry)
+}
+
+extension HashedMailmap: Mailmap { ... }
+extension OrderedMailmap: Mailmap { .}
+
+
+func addEntries1<Map: Mailmap>(entries: Array<MailmapEntry›, to mailmap: inout Map) {
+	for entry in entries {
+		mailmap.addEntry(entry)
+	}
+}
+
+func addEntries2(_ entries: Array<MailmapEntry>, to mailmap: inout any Mailmap) {
+	for entry in entries {
+		mailmap.addEntry(entry)
+	}
+}
+```
+![](images/swift/generics2.png)
+
+* Primary associated types
+	* can put the element type of any collection in angle brackets using the `any` keyword
 	![](images/swift/primary_type.png)
-	* Improvements to any types
-		* The `any` keyword
-		* Pass to generic arguments
-		* Supports `Self` and associated types
-		* Primary associated types
-		* **but** you still shouldn't use them when generics will work
-			* to make generic code easier to write, you can now use the `some` keyword: old code vs. new code
-			![](images/swift/generic_some1.png)
-			![](images/swift/generic_some2.png)
-	* Embrace Swift generics #session
-	* Design protocol interfaces in Swift #session	
+	
+* Improvements to any types
+	* The `any` keyword
+	* Pass to generic arguments
+	* Supports `Self` and associated types
+	* Primary associated types
+	* **but** you still shouldn't use them when generics will work
+		* to make generic code easier to write, you can now use the `some` keyword: old code vs. new code
+```
+// Old Code
+func addEntries1<Entries: Collection<MailmapEntry>, Map: Mailmap>(_ entries: Entries, to mailmap: inout Map) {
+	for entry in entries {
+		mailmap.addEntry(entry)
+	}
+}
+
+func addEntries2(_ entries: any Collection<MailmapEntry>, to mailmap: inout any Mailmap) {
+	for entry in entries {
+		mailmap.addEntry(entry)
+	}
+}
+
+// New Code
+func addEntries1(entries: some Collection<MailmapEntry>, to mailmap: inout some Mailmap) {
+	for entry in entries {
+		mailmap.addEntry(entry)
+	}
+}
+
+func addEntries2( entries: any Collection<MailmapEntry>, to mailmap: inout any Mailmap) {
+	for entry in entries {
+		mailmap.addEntry(entry)
+	}
+}
+```
+		
+* Embrace Swift generics #session
+* Design protocol interfaces in Swift #session	
