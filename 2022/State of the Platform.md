@@ -3,6 +3,8 @@
 Xcode Cloud available today
 ￼![](images/xcode_cloud.png)
 
+---
+
 Vision for Platforms
 - Swift
     - Concurrency
@@ -36,6 +38,8 @@ Vision for Platforms
     - ViewThatFits switches between vertical/horizontal based on available space
     - NavigationSplitView for sidebar/detail view
 
+---
+
 System Experience
 - Home screen widgets
     - circular
@@ -61,6 +65,8 @@ System Experience
 - Passkeys
     - can use on device, or use camera on phone to scan QR code
     - Uses WebAuthn standard
+
+---
 
 New APIs
 - iPadOS

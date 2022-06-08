@@ -12,6 +12,8 @@
 ![](images/swift/mentorships.png)
 * Standard library smaller, dropped dependency on third party unicode library, replaced with native library
 
+---
+
 **Swift Packaging**
 
 * SPM has added "trust on first use" (TOFU) for downloading package for increased security
@@ -26,6 +28,8 @@
 		* examples - source code generation, resource processing
 ![](images/swift/build_plugin1.png)
 ![](images/swift/build_plugin2.png)
+
+---
 	
 **Performance Improvements**
 
@@ -43,6 +47,8 @@
 * Runtime improvements
 	* Optimized protocol conformance checking
 * Improve app size and runtime performance #session
+
+---
 
 **Concurrency**
 
@@ -72,22 +78,82 @@
 * Swift concurrency instruments
 	* Visualize and optimize Swift security
 
+---
+
 **Expressive Swift**
 
-* Unwrapping optionals - old code vs. new code:
-![](images/swift/unwrapping1.png)
-![](images/swift/unwrapping2.png)
+* Unwrapping optionals - old code vs. new code below
 	* works with guard and while as well
+```
+if let workingDirectoryMailmapURL = workingDirectoryMailmapURL {
+	mailmapLines = try String(contentsOf: workingDirectoryMailmapURL).split(separator:
+}
+
+if let workingDirectoryMailmapURL {
+	mailmapLines = try String(contentsOf: workingDirectoryMailmapURL).split(separator:
+}
+```
+	
 * Closure type inference
 	* Have to define your closure result type less often now - `type in -> [String]` becomes `type in`
 	* Permitted pointer conversions
 	![](images/swift/pointer_conversions.png)
 * String parsing
 	* Regex literals: old code vs. new code:
-	![](images/swift/regex1.png)
-	![](images/swift/regex2.png)
-	* Or, even more readable - use RegexBuilder
-	![](images/swift/regex_builder.png)
+```
+// Old way
+let line = "Becca Royal-Gordon <beccarg@apple.com>          # Comment"
+
+func parseLine(_ line: Substring) throws -> MailmapEntry {
+	func trim(_ str: Substring) -> Substring {
+		String(str).trimmingCharacters(in: .whitespacesAndNewlines)[...]
+	}
+	
+	let activeLine = trim(line[..<(line.firstIndex(of: "#") ?? line.endIndex)])
+	guard let nameEnd = activeLine.firstIndex(of:"<"),
+			let emailEd = activeLine[nameEnd...].firstIndex(of: ">"),
+			trim(activeLine[activeLine.index(after: emailEnd)...]).isEmpty else {
+		throw MailmapError.badLine
+	}
+	let name = nameEnd == activeLine.startIndex ? nil : trim(activeLine[..<nameEnd])
+	let email = activeLine[activeLine.index(after:nameEnd)..<emailEnd]
+
+	return MailmapEntry(name: name, email: email)
+}
+
+// New way
+func parseLine( line: Substring) throws -> MailmapEntry {
+	let regex = (Ah*([<#]+?)??\h*<([*>#]+)>\h*(?:#|\Z)/
+	guard let match = line.prefixMatch(of: regex) else {
+		throw MailmapError.badLine
+	}
+	
+	return MailmapEntry(name: match.1, email: match.2)
+}
+```
+* Or, even more readable - use RegexBuilder
+```
+import RegexBuilder
+
+let regex = Regex {
+	ZeroOrMore(.horizontalWhitespace)
+	Optionally {
+		Capture (OneOrMore(.noneOf("<#")))
+	}
+	.repetitionBehavior(.reluctant)
+	
+	ZeroOrMore(.horizontalWhitespace)
+	"<"
+	Capture (OneOrMore(.noneOf(">#")))
+	">"
+	ZeroOrMore(.horizontalWhitespace)
+	Choiceof {
+		"#"
+		Anchor.endofSubjectBeforeNewline
+	}
+}
+```
+
 		* You can turn a regex into a reusable regex component (similar to turning a SwiftUI hierarchy into a view)
 		* Support dropping string literals right into a builder without special characters
 		* Can use regex literals in the middle of a builder

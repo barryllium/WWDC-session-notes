@@ -1,5 +1,7 @@
 # **Keynote**
 
+---
+
 iOS 16
 - Lock screen
     - Personalized home screen
@@ -69,6 +71,8 @@ iOS 16
     - follow up suggestions
     - new search
 
+---
+
 watchOS
 - new watch faces. No one will use any of them with the exception of maybe Metropolitan
 - new Siri UI
@@ -96,6 +100,8 @@ watchOS
     - sharing to help keep track of others
 - Supports series 4 and newer
 
+---
+
 Mac
 - M2
     - Up to 24GB Memory
@@ -112,6 +118,8 @@ Mac
     - fast charge
 - 13” Macbook Pro
     - Same as above, but with fans and a Touch Bar
+
+---
 
 macOS
 - macOS Ventura (pet detective?)
@@ -158,6 +166,8 @@ macOS
         - works on all devices
     - Continuity camera - use iPhone as webcam
         - uses MagSafe stand that will probably cost $99
+
+---
 
 iPadOS
 - A (finally) weather app

@@ -15,6 +15,7 @@
 	* Enterprise distribution
 	* App Store
 
+---
 
 **Using Developer Mode**
 
@@ -31,6 +32,7 @@
 	* On restart, you will be prompted again to turn on Developer Mode
 	* Setting will persist after confirmation
 
+---
 
 **Automation Flows**
 

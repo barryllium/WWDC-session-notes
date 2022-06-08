@@ -14,6 +14,7 @@
 	* Home
 	* Fitness
 
+---
 
 **Rendering modes**
 * Four rendering modes
@@ -27,6 +28,7 @@
 	* Now, Automatic Rendering will choose the mode best suited for the symbol
 	* You can override automatic rendering by specifying a specific mode
 
+---
 
 **Variable Color**
 * Paths of symbol are arranged into layers, in sequential order, to allow levels of strength or sequence over time
@@ -38,6 +40,7 @@
 * Not meant to create depth, but instead highlight a sequence of steps or stages that the symbol can represent
 * Opacity based, and available in all rendering modes
 
+---
 
 **Unified annotations**
 * layers must be ordered in z-order
