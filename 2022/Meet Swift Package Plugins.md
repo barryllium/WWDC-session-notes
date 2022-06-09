@@ -32,11 +32,11 @@ Two kinds of plugins:
 Add a dependency to your swift Package file the same way you do a library dependency
 * will automatically add subdependencies
 
-![](images/packagePlugin/dependency.png)
+![](images/packagePlugins/dependency.png)
 
 Use the context menu on the package you want to apply the command to
 
-![](images/packagePlugin/context_menu.png)
+![](images/packagePlugins/context_menu.png)
 
 When a package needs to write files, you will be prompeted to give it permission
 
@@ -55,7 +55,7 @@ Package plugins are swift scripts that are compiled and run when needed
 	* Command plugins can ask for permission to also modify files in the package source directory. If the user approves, the sandbox is configured to allow writing to those locations.
 * Plugin can also send results back to Xcode
 
-![](images/packagePlugin/plugin_diagram.png)
+![](images/packagePlugins/plugin_diagram.png)
 
 ```
 // Package plugin entry points
@@ -92,7 +92,7 @@ import PackagePlugin
 
 Can also be run via the command line
 
-![](images/packagePlugin/command_line.png)
+![](images/packagePlugins/command_line.png)
 
 ---
 
@@ -133,6 +133,6 @@ New `plugins` parameter parameter in the package manifest
 * Add a dependency on the package that provides the source generator plugin I want to use
 * In the target that needs to use the plugin, add a plugins parameter to its definition
 
-![](images/packagePlugin/manifest.png)
+![](images/packagePlugins/manifest.png)
 
 
