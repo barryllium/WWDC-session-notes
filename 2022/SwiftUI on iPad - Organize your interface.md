@@ -1,4 +1,4 @@
-# **SwiftUI on iPad - Organize your interface**
+# **SwiftUI on iPad: Organize your interface**
 
 ### **Lists and tables**
 
