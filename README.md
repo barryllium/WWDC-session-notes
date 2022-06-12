@@ -1,3 +1,3 @@
 # WWDC-session-notes
 
-Notes (with screenshots) for WWDC sessions
+Notes (with screenshots and code blocks) for WWDC sessions
