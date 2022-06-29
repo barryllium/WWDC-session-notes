@@ -1,4 +1,4 @@
-# **- Track down hangs with Xcode and on-device detection**
+# **Track down hangs with Xcode and on-device detection**
 
 ### **What are hangs**
 
