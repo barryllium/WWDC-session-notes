@@ -22,13 +22,13 @@ Structural identity
 * For views that don’t move, SwiftUI uses their relative arrangement of views to distinguish them from each other
 * Only works if SwiftUI can guarantee these views won’t swap
 * Implicitly uses @ViewBuilder
-￼
+
 ![](images/demystify/ifelse.png)
 
 Using if/else causes views to transition in and out. When possible, use a single view with different parameters/modifiers
 
 * This will preserve state by using a single identifier
-￼
+
 ![](images/demystify/structural.png)
 
 Avoid AnyView whenever possible
@@ -39,7 +39,7 @@ Avoid AnyView whenever possible
 * Fewer compile-time diagnostics without AnyView
 
 Bad code example:
-￼
+
 ```
 func view(for dog: Dog) -> some View {
 	var dogView: AnyView
@@ -63,7 +63,7 @@ func view(for dog: Dog) -> some View {
 ```
 
 Good code example:
-￼
+
 ```
 @ViewBuilder
 func view(for dog: Dog) -> some View {
@@ -99,7 +99,7 @@ When a view is first created, it is given an identity
 
 * When using if/else to show/hide views, each view gets its own set of State/StateObject
 * So if you have two instances of a view that show/hide, they do not share the same values/identity unless those values are passed in
-￼
+
 ![](images/demystify/lifetime.png)
 
 State lifetime = View lifetime
@@ -118,7 +118,7 @@ Dependencies are an input for a view
 
 * When dependencies change, the view is required to produce a new body
 * Actions are what trigger changes to a view’s dependencies
-￼
+
 ![](images/demystify/structural.png)
 
 Dependency graph
@@ -153,11 +153,11 @@ Identifier uniqueness
 * Correctly reflects dependencies
 
 The code below has a problem - once the condition is met, the view will get a new identifier
-￼
-￼￼![](images/demystify/identifier1.png)
+
+![](images/demystify/identifier1.png)
 
 Moving the condition inside the opacity modifier will fix the issue and improve performance
-￼
+
 ![](images/demystify/identifier2.png)
 
 An opacity of 1.0 is an inert modifier, and allows SwiftUI to remove the modifier and improve performance
