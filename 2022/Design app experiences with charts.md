@@ -1,4 +1,4 @@
-# **Design app experiences with charts**
+# [**Design app experiences with charts**](https://developer.apple.com/videos/play/wwdc2022/110342/)
 
 ### **When to use charts**
 
@@ -75,6 +75,6 @@ When planning multiple charts
 
 ![](images/designcharts/three_charts.png)
 
-* Design an effective chart #session
-* [Hello Swift Charts](Hello Swift Charts.md) session
+* [**Design an effective chart**](Design an effective chart.md) session
+* [**Hello Swift Charts**](Hello Swift Charts.md) session
 

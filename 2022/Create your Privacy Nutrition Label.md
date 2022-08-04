@@ -1,4 +1,4 @@
-# **Create your Privacy Nutrition Label**
+# [**Create your Privacy Nutrition Label**](https://developer.apple.com/videos/play/wwdc2022/10167/)
 
 ![](images/nutrition/labels.png)
 
@@ -33,7 +33,7 @@ Label creation process
 * Minimize data collection
 * Use on-device processing where possible
 * Storing data not linked to identity
-* What's new in privacy #session
+* [**What's new in privacy**](What's new in privacy.md) session
 
 To set your privacy information, use App Store Connect
 
@@ -58,7 +58,7 @@ To set your privacy information, use App Store Connect
 * Label reflects all potential use of data, including tracking with user permission
 * Disclose data used for tracking on label
 * Use App Tracking Transparency to request permission to track
-	* Explore App Tracking Transparency #session
+	* [**Explore App Tracking Transparency**](https://developer.apple.com/videos/play/wwdc2022/10166/) session
 
 You'll be able to preview and publish your label once you answer all questions. Labels are updated independent from app build updates.
 * As you change how your app uses data, keep your label up to date

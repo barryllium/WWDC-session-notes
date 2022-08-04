@@ -1,4 +1,4 @@
-# **Power down: Improve battery consumption**
+# [**Power down: Improve battery consumption**](https://developer.apple.com/videos/play/wwdc2022/10083/)
 
 ### **Adopt Dark Mode**
 
@@ -10,13 +10,13 @@
 * Dynamic colors for background, text, and images
 	* System will update colors based on mode
 * Use alternate images for different modes
-* **Implementing Dark Mode** #session from WWDC 2019
+* [**Implementing Dark Mode on iOS**](https://developer.apple.com/videos/play/wwdc2019/214/) session from WWDC 2019
 * Web content
 	* `color-scheme` style property to support dark mode
 	* Stylesheet variables for text and background colors
 	* `prefers-color-scheme` for picture and media query
 	* Choose other image variants for web content in Dark Mode
-	* **Supporting Dark Mode in Your Web Content** #session from WWDC 2019
+	* [**Supporting Dark Mode in Your Web Content**](https://developer.apple.com/videos/play/wwdc2019/511/) session from WWDC 2019
 
 ---
 
@@ -33,7 +33,7 @@
 	* Give hints to the system about desired refresh rates
 		* Set `preferredFrameRateRange` with minimum, maximum, preferred rates
 	* System determines the rate it can handle based on your hint
-* **Optimize for variable refresh rate displays** #session from WWDC 2021
+* [**Optimize for variable refresh rate displays**](https://developer.apple.com/videos/play/wwdc2021/10147/) session from WWDC 2021
 
 ```
 // Create a display link

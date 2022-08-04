@@ -1,4 +1,4 @@
-# **What's new in WKWebView**
+# [**What's new in WKWebView**](https://developer.apple.com/videos/play/wwdc2022-10049)
 
 * Use SFSafariViewController for in-app web experiences where you don't need customization
 * UIWebView will be removed in a future release
@@ -82,7 +82,7 @@ WKContentRuleListStore.default().compileContentRuleList(forIdentifier: "example_
 }
 ```
 
-* What's new in Safari Web Extensions #session
+* [**What's new in Safari Web Extensions**](https://developer.apple.com/videos/play/wwdc2022-10099) session
 
 ---
 

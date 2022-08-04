@@ -1,4 +1,4 @@
-# **What's new in UIKit**
+# [**What's new in UIKit**](https://developer.apple.com/videos/play/wwdc2022-10068)
 
 ### **Productivity improvements**
 
@@ -39,7 +39,7 @@
 	* different based on touch and pointer input
 * Customizable, bridges nicely with Mac Catalyst
 * new `UIEditMenuInteraction` API
-* See the **Adopt desktop class editing interactions** #session
+* See the [**Adopt desktop class editing interactions**](Adopt desktop-class editing interactions.md) session
 
 **Materials in Sidebar**
 
@@ -50,7 +50,7 @@
 Related sessions
 
 * [**Meet desktop class iPad**](Meet desktop-class iPad.md)
-* **Build a desktop class iPad app** #session
+* [**Build a desktop class iPad app**](Build a desktop-class iPad app.md)
 
 ---
 
@@ -213,7 +213,7 @@ UIImage(systemName: "wifi",
 
 * Updated system symbols
 * Support for custom variable symbols
-* **Adopt variable color in SF Symbols** #session
+* [**Adopt variable color in SF Symbols**](Adopt Variable Color in SF Symbols.md) session
 * [**What's new in SF Symbols 4**](What's new in SF Symbols 4.md) session
 
 **Swift Concurrency and Sendable**
@@ -246,8 +246,8 @@ class ImageViewer: UIViewController {
 
 More on Swift Concurrency and Sendable
 
-* **Eliminate data races using Swift Concurrency** #session
-* **Visualize and optimize Swift Concurrency** #session
+* [**Eliminate data races using Swift Concurrency**](Eliminate data races using Swift Concurrency.md) session
+* [**Visualize and optimize Swift Concurrency**](Visualize and optimize Swift concurrency.md) session
 
 **Stage Manager**
 
@@ -282,7 +282,7 @@ class UICollectionView {
 
 * Build custom cells using SwiftUI
 * Works with UICollectionView and UITableView
-* **Use SwiftUI with UIKit** #session
+* [**Use SwiftUI with UIKit**](Use SwiftUI with UIKit.md) session
 
 ```
 cell.contentConfiguration = UIHostingConfiguration {

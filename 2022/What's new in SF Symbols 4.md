@@ -1,4 +1,4 @@
-# **What's new in SF Symbols 4**
+# [**What's new in SF Symbols 4**](https://developer.apple.com/videos/play/wwdc2022-10157)
 
 ### **New Symbols**
 * New additions
@@ -50,4 +50,4 @@
 ![](images/sfsymbols/layers.png)
 * For variable color layers, define each layer in sequence, do not group them
 ![](images/sfsymbols/variable_layers.png)
-* Adopt Variable Color in SF Symbols #session
+* [**Adopt Variable Color in SF Symbols**](Adopt Variable Color in SF Symbols.md) session

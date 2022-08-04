@@ -1,4 +1,4 @@
-# **Implement App Shortcuts with App Intents**
+# [**Implement App Shortcuts with App Intents**](https://developer.apple.com/videos/play/wwdc2022-10170)
 
 ### **Overview**
 

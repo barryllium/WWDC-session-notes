@@ -1,4 +1,4 @@
-# **Design protocol interfaces in Swift**
+# [**Design protocol interfaces in Swift**](https://developer.apple.com/videos/play/wwdc2022/110353/)
 
 This session picks up where the [**Embrace Swift generics**](Embrace Swift generics.md) session leaves off
 

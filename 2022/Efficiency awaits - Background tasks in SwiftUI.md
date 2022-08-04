@@ -1,4 +1,4 @@
-# **Efficiency awaits: Background tasks in SwiftUI**
+# [**Efficiency awaits: Background tasks in SwiftUI**](https://developer.apple.com/videos/play/wwdc2022/10142/)
 
 ### **Stormy: A storm photos app**
 
@@ -153,5 +153,5 @@ struct MyApp: App {
 }
 ```
 
-* Meet Async/await in Swift #session from WWDC 2021
-* Discover Concurrency in SwiftUI #session from WWDC 2021
+* **Meet Async/await in Swift** #session from WWDC 2021
+* **Discover Concurrency in SwiftUI** #session from WWDC 2021

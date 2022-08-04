@@ -1,4 +1,4 @@
-# **What's new in privacy**
+# [**What's new in privacy**](https://developer.apple.com/videos/play/wwdc2022-10096)
 
 Privacy pillars
 
@@ -98,7 +98,7 @@ Privacy pillars
 * Apple doesn't learn servers visited
 * Device identities remain private
 * Privacy Pass IETF standard
-* **Replace CAPTCHAs with Private Access Tokens** #session
+* [**Replace CAPTCHAs with Private Access Tokens**](https://developer.apple.com/videos/play/wwdc2022-10077) session
 
 **Passkeys**
 
@@ -106,7 +106,7 @@ Privacy pillars
 * Eliminate server password compromises
 * Prevent phishing
 * Sync across your devices
-* **Meet Passkeys** #session
+* [**Meet Passkeys**](https://developer.apple.com/videos/play/wwdc2022-10092) session
 
 ---
 

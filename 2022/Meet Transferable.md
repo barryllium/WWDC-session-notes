@@ -1,4 +1,4 @@
-# **Meet Transferable**
+# [**Meet Transferable**](https://developer.apple.com/videos/play/wwdc2022/10062/)
 
 A swift-first, declarative way to describe how your models can be serialized and deserialized for sharing and data transfer
 
@@ -98,7 +98,7 @@ extension Profile: Transferable {
 Three important represenations:
 
 * CodableRepresentation
-	* To learn more about Codable: Data you can trust #session from WWDC 2018
+	* To learn more about Codable: [**Data you can trust**](https://developer.apple.com/videos/play/wwdc2018/222/) session from WWDC 2018
 * DataRepresentation
 * FileRepresentation
 

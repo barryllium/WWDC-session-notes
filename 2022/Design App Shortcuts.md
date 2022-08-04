@@ -1,4 +1,4 @@
-# **Design App Shortcuts**
+# [**Design App Shortcuts**](https://developer.apple.com/videos/play/wwdc2022/10169/)
 
 All shortcuts begin with a fundamental component called `Actions`
 
@@ -49,7 +49,7 @@ Keys to picking a name
 * Each parameter value, in combination with the App Intent, creates a unique variant of your app shortcut
 	* Automatically generated and shown in the Shortcuts app and Spotlight
 	* Also available in the shortcuts editor
-* **Design great actions for Shortcuts, Siri, and Suggestions** #session from WWDC 2021
+* [**Design great actions for Shortcuts, Siri, and Suggestions**](https://developer.apple.com/videos/play/wwdc2021/10283/) session from WWDC 2021
 * Be clear with your naming which part of the shortcut is the dynamic parameter
 	* Keep naming simple
 	* Additional options can be acquired via subsequent steps

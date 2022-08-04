@@ -1,4 +1,4 @@
-# **Compose custom layouts with SwiftUI**
+# [**Compose custom layouts with SwiftUI**](https://developer.apple.com/videos/play/wwdc2022/10056/)
 
 ### **Grid**
 
@@ -14,7 +14,7 @@ An initial attempt yields some of what we want (points 1 and 4 above), but not o
 
 ![](images/customLayouts/grid_first.png)
 
-Fixes to get what we want in ponts 2 and 3:
+Fixes to get what we want in points 2 and 3:
 
 * We give our Grid an alignment to handle point 2 `Grid(alignment: .leading)`
 * We specify our third column as having a trailing alignment `.gridColumnAlignment(.trailing)

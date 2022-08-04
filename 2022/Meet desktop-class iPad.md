@@ -1,4 +1,4 @@
-# **Meet desktop-class iPad**
+# [**Meet desktop-class iPad**](https://developer.apple.com/videos/play/wwdc2022/10069/)
 
 ### **Application design**
 
@@ -18,8 +18,8 @@ UIKit adds
 
 For more info on Find and Replace/Edit menu, watch
 
-* Adopt desktop class editing interactions #session
-* Build a desktop class iPad app #session
+* [**Adopt desktop class editing interactions**](Adopt desktop-class editing interactions.md) session
+* [**Build a desktop class iPad app**](Build a desktop-class iPad app.md) session
 
 ---
 

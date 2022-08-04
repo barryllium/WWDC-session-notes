@@ -1,4 +1,4 @@
-# **Build a desktop-class iPad app**
+# [**Build a desktop-class iPad app**](https://developer.apple.com/videos/play/wwdc2022/10070/)
 
 * [**Meet desktop class iPad**](Meet desktop-class iPad.md) session
 * [**What's new in iPad app design**](What's new in iPad app design.md) session
@@ -293,4 +293,4 @@ func textView(_ textView: UITextView,
 
 ![](images/desktopipad/custom_actions.png)
 
-For more info on Editing interactions, check out the **Adopt desktop class editing interactions** #session
+For more info on Editing interactions, check out the [**Adopt desktop class editing interactions**](Adopt desktop-class editing interactions.md) session

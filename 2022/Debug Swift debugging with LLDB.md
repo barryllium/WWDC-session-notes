@@ -1,10 +1,10 @@
-# **Debug Swift debugging with LLDB**
+# [**Debug Swift debugging with LLDB**](https://developer.apple.com/videos/play/wwdc2022/110370/)
 
 LLDB is the underlying debugging technology that ships with Xcode
 
 * LLDB allows you to set breakpoints in your application, pause its execution, inspect the state of variables and objects, explore your code, and much more
 * LLDB can help you understand what your code is doing and it enables you to find the point where the behavior of your code diverges from your expectation
-* Learn more in the **Discover breakpoint improvements** #session from WWDC 2021
+* Learn more in the [**Discover breakpoint improvements**](https://developer.apple.com/videos/play/wwdc2021/10209/) session from WWDC 2021
 
 **How the debugger shows source code**
 
@@ -31,7 +31,7 @@ LLDB is the underlying debugging technology that ships with Xcode
 * Alternatively, each .dSYM bundle contains a XML .plist file where you can put a path prefix remapping dictionary
 	* XML `<UUID>.plist` in `.dSYM` bundle `DBGSourcePathRemapping dictionary`
 * Source paths are not language-specific at all, so this method works for Swift, C++, and Objective-C projects alike
-* Learn more in the **Symbolication: Beyond the basics** #session from WWDC 2021
+* Learn more in the [**Symbolication: Beyond the basics**](https://developer.apple.com/videos/play/wwdc2021/10211/) session from WWDC 2021
 
 **Source path canonicalization**
 
@@ -44,7 +44,7 @@ There are several different keywords you can use to get information about variab
 
 * `po`, `p`, `expr`
 * The console equivalent of the Xcode variable view is `v` or `frame variable`
-* To learn more about these, check out the **LLDB: Beyond "po"** #session from WWDC 2019
+* To learn more about these, check out the [**LLDB: Beyond "po"**](https://developer.apple.com/videos/play/wwdc2019/429/) session from WWDC 2019
 
 **More about LLDB**
 
@@ -53,7 +53,7 @@ There are several different keywords you can use to get information about variab
 * In addition to the functionality of a debugger, LLDB also includes a fully functioning copy of the Swift and Clang compilers
 	* These compilers power LLDB's expression evaluator, which you may know through `p` and `po` command aliases
 	* With the expression evaluator we can go beyond looking at variables, we can perform computation, call functions, and even change the state of the program
-* Check out the **Advanced Debugging with Xcode and LLDB** #session from WWDC 2018 for more
+* Check out the [**Advanced Debugging with Xcode and LLDB**](https://developer.apple.com/videos/play/wwdc2018/412/) session from WWDC 2018 for more
 
 **Formatting local variables**
 
@@ -80,8 +80,8 @@ There are several different keywords you can use to get information about variab
 	* Clang modules can depend on other Clang modules
 * The app might also import a Swift module that belongs to a locally built framework
 	* Could also import textual Swift interface files that are not part of the SDK
-	* To learn how, check out the **Binary Frameworks in Swift** #session from WWDC 2019
-* The app might also link against a static library that contains Swift code, and then that comes with a Swift module too
+	* To learn how, check out the [**Binary Frameworks in Swift**](https://developer.apple.com/videos/play/wwdc2019/416/) session from WWDC 2019
+* The app might also link against a static library that contains Swift code, andg then that comes with a Swift module too
 * Bridging headers can also import Clang modules
 * As a special feature in LLDB only, some module contents can be reconstructed from debug info alone
 

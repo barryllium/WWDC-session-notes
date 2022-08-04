@@ -1,4 +1,4 @@
-# **Bring your iOS app to the Mac**
+# [**Bring your iOS app to the Mac**](https://developer.apple.com/videos/play/wwdc2022-10076)
 
 ### **iOS apps on M1**
 
@@ -46,8 +46,8 @@ Preferred Controls | All Controls
 **Native keyboard and trackpad**
 
 * Directly implementing keyboard and cursor support in an app ensures the app behaves well on all devices (iPad and Mac)
-* **Support hardware keyboards in your app** #session from WWDC 2020
-* **Handle trackpad and mouse input** #session from WWDC 2020
+* [**Support hardware keyboards in your app**](https://developer.apple.com/videos/play/wwdc2020/10109/) session from WWDC 2020
+* [**Handle trackpad and mouse input**](https://developer.apple.com/videos/play/wwdc2020/10094/) session from WWDC 2020
 
 ---
 
@@ -71,7 +71,7 @@ Adding a Mac Catalyst target in project settings:
 **Desktop class iPad**
 
 * [**Meet desktop class iPad**](Meet desktop-class iPad.md) session
-* **Build a desktop class iPad app** #session
+* [**Build a desktop class iPad app**](Build a desktop-class iPad app.md) session
 * Controls and navigation move from UINavigationBar into the NSToolbar
 	* If you don't already create a toolbar, we give you one automatically
 	* If you already manage your own NSToolbar in Catalyst, nothing changes

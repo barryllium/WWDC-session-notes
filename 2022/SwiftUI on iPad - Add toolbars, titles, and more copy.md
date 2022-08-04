@@ -1,4 +1,4 @@
-# **SwiftUI on iPad: Add toolbars, titles, and more**
+# [**SwiftUI on iPad: Add toolbars, titles, and more**](https://developer.apple.com/videos/play/wwdc2022-110343)
 
 Check out part 1: [SwiftUI on iPad: Organize your interface](SwiftUI on iPad - Organize your interface.md)
 

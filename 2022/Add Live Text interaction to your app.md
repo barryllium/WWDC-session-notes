@@ -1,4 +1,4 @@
-# **Add Live Text interaction to your app**
+# [**Add Live Text interaction to your app**](https://developer.apple.com/videos/play/wwdc2022/10026/)
 
 What is Live Text
 
@@ -12,7 +12,7 @@ What is Live Text
 * Available in swift
 * Works on static images
 * Can be adapted to work on paused video frames
-* Capture machine-readable codes and text with VisionKit #session
+* [**Capture machine-readable codes and text with VisionKit**](https://developer.apple.com/videos/play/wwdc2022/10025/) session
 * iOS 16
 
 ![](images/livetext/api_flow.png)
@@ -159,8 +159,8 @@ override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
 * UITextField/UITextView have Live Text support using camera for text input
 * WebKit
 * Quick Look
-* Use the camera for keyboard input in your app #session from WWDC 2021
-* Quick Look Previews from the Ground Up #session from WWDC 2018
+* **Use the camera for keyboard input in your app** #session from WWDC 2021
+* [**Quick Look Previews from the Ground Up**](https://developer.apple.com/videos/play/wwdc2018/237/) session from WWDC 2018
 
 **AVKit**
 

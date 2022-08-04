@@ -1,4 +1,4 @@
-# **Swift Regex: Beyond the basics**
+# [**Swift Regex: Beyond the basics**](https://developer.apple.com/videos/play/wwdc2022-110358)
 
 Two new ways of string processing:
 

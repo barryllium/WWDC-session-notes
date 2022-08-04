@@ -1,10 +1,10 @@
-# **Track down hangs with Xcode and on-device detection**
+# [**Track down hangs with Xcode and on-device detection**](https://developer.apple.com/videos/play/wwdc2022-10082)
 
 ### **What are hangs**
 
 * A hang is reported when the main thread is busy doing work or waiting on another thread or system resource, causing a delay in updating the view content by at least 250 milliseconds.
 * The main thread is also unavailable to process new user interactions until the hang is resolved
-* **Understand and eliminate hangs from your app** #session from WWDC 2021
+* [**Understand and eliminate hangs from your app**](https://developer.apple.com/videos/play/wwdc2021/10258/) session from WWDC 2021
 
 ![](images/hangs/hang.png)
 
@@ -81,14 +81,14 @@ iOS 16/Xcode 14 introduces:
 ![](images/hangs/organizer.png)
 
 * Hang data can also be retrieved via the App Store Connect APIs
-* **Identify trends with the Power and Performance API** #session from WWDC 2020
+* [**Identify trends with the Power and Performance API**](https://developer.apple.com/videos/play/wwdc2020/10057/) session from WWDC 2020
 
 **Regressions**
 
 * Starting in Xcode 13.2, you can receive notifications when monitoring power and performance metrics in your app
 * enable notifications by clicking the Notifications button in the top right of the Xcode Organizer's Regressions view
 * Alerts you to sudden rises in your app's hang rate
-* **Diagnose Power and Performance Regressions in your app** #session from WWDC 2021
+* [**Diagnose Power and Performance Regressions in your app**](https://developer.apple.com/videos/play/wwdc2021/10087/) session from WWDC 2021
 
 **Submitting symbols**
 

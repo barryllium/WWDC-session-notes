@@ -1,4 +1,4 @@
-# **Complications and widgets: Reloaded**
+# [**Complications and widgets: Reloaded**](https://developer.apple.com/videos/play/wwdc2022/10050/)
 
 I sure hope this is better than `The Matrix: Reloaded`...
 
@@ -30,7 +30,7 @@ accessoryInline | accessoryCorner
 --------------- | ---------------
 ![](images/complications/inline.png) | ![](images/complications/corner.png)
 
-Watch **Go further with WidgetKit complications** #session for more information on
+Watch [**Go further with WidgetKit complications**](https://developer.apple.com/videos/play/wwdc2022/10051/) session for more information on
 
 * WidgetKit complications
 * Corner and Bezel complications
@@ -136,7 +136,7 @@ When adding a widget to a project, add the `Widget Extension` target to your pro
 
 * Already existed on iOS, new for watchOS
 
-This section will build on the `Emoji Rangers` project from the **Widgets Code-along** #session from WWDC 2020
+This section will build on the `Emoji Rangers` project from the [**Widgets Code-along**](https://developer.apple.com/videos/play/wwdc2020/10034/) sessions from WWDC 2020
 
 * App tracks favorite emoji rangers
 * Keeps you up-to-date with their health/recharge time with home screen widgets

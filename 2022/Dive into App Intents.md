@@ -1,4 +1,4 @@
-# **Dive into App Intents**
+# [**Dive into App Intents**](https://developer.apple.com/videos/play/wwdc2022/10032/)
 
 ### **Introducing AppIntents**
 
@@ -12,9 +12,9 @@ With App Shortcuts:
 
 * Everyone can use your app's features with their voice through Siri, without needing to set anything up first. The same adoption also makes your intents appear in Spotlight when people search for your app and when your app's suggested.
 * Build Focus Filters, letting customers customize your app for a specific focus
-	* **Meet Focus Filters** #session
+	* [**Meet Focus Filters**](https://developer.apple.com/videos/play/wwdc2022/10121/) session
 * Intents show up in the Shortcuts app automatically
-* **Design great actions for Shortcuts, Siri, and Suggestions** #session from WWDC 2021
+* [**Design great actions for Shortcuts, Siri, and Suggestions**](https://developer.apple.com/videos/play/wwdc2021/10283/) session from WWDC 2021
 * Do not require an App Extension
 
 ---
@@ -64,7 +64,7 @@ Once an App Intent has been turned into a shortcut, it can be used in many ways 
 You can add support for App Shortcuts with just a little bit of code
 
 * Intent will automatically show up in Spotlight and the Shortcuts app
-* **Implement App Shortcuts with App Intents** #session
+* [**Implement App Shortcuts with App Intents**](Implement App Shortcuts with App Intents.md) session
 
 ```
 public struct LibraryAppShortcuts: AppShortcutsProvider {

@@ -1,4 +1,4 @@
-# **Embrace Swift generics**
+# [**Embrace Swift generics**](https://developer.apple.com/videos/play/wwdc2022/110352/)
 
 ### **Model with concrete types**
 
@@ -248,7 +248,7 @@ struct Farm {
 }
 ```
 
-To learn how the other farm protocols were crafted to express the relationship between the animal feed type and its plant, see **Design protocol interfaces in Swift** #session
+To learn how the other farm protocols were crafted to express the relationship between the animal feed type and its plant, see [**Design protocol interfaces in Swift**](Design protocol interfaces in Swift.md) session
 
 Let's add a method to feed all animals:
 

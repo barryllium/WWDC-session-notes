@@ -1,4 +1,4 @@
-# **Meet Swift Package Plugins**
+# [**Meet Swift Package Plugins**](https://developer.apple.com/videos/play/wwdc2022/110359/)
 
 ### **What is a package plugin?**
 
@@ -68,7 +68,7 @@ struct MyPlugin: CommandPlugin {
 }
 ```
 
-Create Swift Package Plugins #session
+[**Create Swift Package Plugins**](https://developer.apple.com/videos/play/wwdc2022/110401/) session
 
 ---
 

@@ -1,4 +1,4 @@
-# **What's new in App Store Connecte**
+# [**What's new in App Store Connect**](https://developer.apple.com/videos/play/wwdc2022-10043)
 
 ### **Recent Updates**
 
@@ -49,8 +49,8 @@ This summer, adding new functionality:
 	*  Analyze and eliminate app hangs
 	*  View diagnostic signatures
 	*  Downlaod detailed logs
-	*  Identify trends with Power and Performance API #session
-	*  Track down hangs with Xcode and on-device detection #session
+	*  [**Identify trends with Power and Performance API**](https://developer.apple.com/videos/play/wwdc2020/10057/) session from WWDC 2020
+	*  [**Track down hangs with Xcode and on-device detection**](Track down hangs with Xcode and on-device detection.md) session
 
 XML feed being decommissioned - fully adopted REST
 

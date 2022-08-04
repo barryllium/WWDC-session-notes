@@ -1,10 +1,10 @@
-# **Get the most out of Xcode Cloud**
+# [**Get the most out of Xcode Cloud**](https://developer.apple.com/videos/play/wwdc2022/110374/)
 
 ### **Xcode Cloud overview**
 
 * Continuous integration and delivery service
 * Brings together TestFlight, App Store Connect, and Testing in an online service
-* Meet Xcode Cloud #session from 2021
+* **Meet Xcode Cloud** #session from 2021
 
 ---
 
@@ -13,6 +13,7 @@
 Dashboard
 
 * Overview shows when build was started, and how long each stage took in the build process
+
 ![](images/xcodeCloud/dashboard.png)
 ![](images/xcodeCloud/usage.png)
 
@@ -36,7 +37,7 @@ You can see how much time each of the workflows is using
 
 ### **Best Practices**
 
-Check out Explore Xcode Cloud Workflows #session from 2021
+Check out [**Explore Xcode Cloud Workflows**](https://developer.apple.com/videos/play/wwdc2021/10268/) session from 2021
 
 **Avoid unintended builds**
 
@@ -68,8 +69,8 @@ All the devices | Just the recommended set
 
 **Optimize custom scripts and tests**
 
-* Check out the Customize your advanced Xcode Cloud workflows #session from 2021
-* Author fast and reliable tests for Xcode Cloud #session
+* Check out the [**Customize your advanced Xcode Cloud workflows**](https://developer.apple.com/videos/play/wwdc2021/10269/) session from 2021
+* [**Author fast and reliable tests for Xcode Cloud**](Author fast and reliable tests for Xcode Cloud.md) session
 
 ---
 
@@ -81,4 +82,4 @@ Making the changes above did the following to the original workflow:
 * usage was 4 minutes less
 * Integration builds trended -7% time
 
-For teams, check out the Deep Dive into Xcode Cloud for Teams #session from 2021
+For teams, check out the [**Deep Dive into Xcode Cloud for Teams**](Deep dive into Xcode Cloud for teams.md) session

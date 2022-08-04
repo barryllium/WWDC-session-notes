@@ -1,8 +1,11 @@
-# **The SwiftUI cookbook for navigation**
+# [**The SwiftUI cookbook for navigation**](https://developer.apple.com/videos/play/wwdc2022-10054)
 
 ### **New navigation APIs**
+
 **NavigationStack**
+
 * for push/pop behavior
+
 ```
 NavigationStack(path: Spath) {
 	RecipeDetail()
@@ -10,9 +13,11 @@ NavigationStack(path: Spath) {
 ```
 
 **NavigationSplitView**
+
 * Multi-column apps
 * Automatically adapts to single column stack in compact widths
 * Two sets of initializers for two and three column views
+
 ```
 NavigationSplitView {
 	RecipeCategories()
@@ -22,7 +27,7 @@ NavigationSplitView {
 ```
 
 ```
-NavigationSplitView{
+NavigationSplitView {
 	RecipeCategories()
 } content: {
 	RecipeList()
@@ -32,6 +37,7 @@ NavigationSplitView{
 ```
 
 **NavigationLink varieties**
+
 *  New init takes a value instead of the view
 
 ```
@@ -41,6 +47,7 @@ NavigationLink( "Show detail") {
 
 NavigationLink("Apple Pie", value: applePieRecipe)
 ```
+
 ___
  
 ### **Recipes for navigation**
@@ -76,22 +83,27 @@ Stack Start | Push first view | Push second view
 ![](images/navigation/stack_1.png) | ![](images/navigation/stack_2.png) | ![](images/navigation/stack_3.png)
 
 * Can add a method to jump to any view
+
 ```
 func showRecipeOfTheDay() {
 	path = [dataModel.recipeOfTheDay]
 }
 ```
+
 * Can add another method to jump back to the root
+
 ```
 func popToRoot() {
 	path.removeAll()
 }
 ```
-* Build a productivity app for Apple Watch #session
+
+* [**Build a productivity app for Apple Watch**](https://developer.apple.com/videos/play/wwdc2022-10133) session
 
 * NavigationSplitView example
 	* use state to keep track of selected item from main list
-	* can use the same ideas as NavigationStack to track path ofr the content/detail views
+	* can use the same ideas as NavigationStack to track path for the content/detail views
+
 ```
 @State private var selectedCategory: Category?
 
@@ -108,6 +120,7 @@ var body: some View {
 	}
 }
 ```
+
 ```
 @State private var selectedCategory: Category?
 @State private var selectedRecipe: Recipe?
@@ -125,7 +138,9 @@ var body: some View {
 	}
 }
 ```
+
 * can also navigate to any view in the split view programmatically
+
 ```
 func showRecipeOfTheDay() {
 	let recipe = dataModel.recipeOfTheDay
@@ -133,10 +148,12 @@ func showRecipeOfTheDay() {
 	selectedRecipe = recipe
 }
 ```
+
 * programmatic changes apply properly to compact views, despite collapsing to a stack
 
 * NavigationSplitView with NavigationStack
 	* Can put a NavigationStack inside the detail of a NavigationSplitView
+
 ```
 @State private var selectedCategory: Category?
 @State private var path: [Recipe] = []
@@ -154,9 +171,11 @@ var body: some View {
 	}
 }
 ```
+
 * `.navigationDestination` should be attached to the scrollView, not to the NavigationLink
 		* Lazy containers like List, Table, LazyVGrid don't load all views immediately
 		* would be repeated for every item in the Grid
+
 ```
 struct RecipeGrid: View {
 	var category: Category?
@@ -183,6 +202,7 @@ struct RecipeGrid: View {
 
 * Uses Codable and SceneStorage
 	1. 	Move navigation state into a model type
+
 ```
 class NavigationModel: ObservableObject {
 	@Published var selectedCategory: Category?
@@ -204,10 +224,12 @@ var body: some View {
 	}
 }
 ```
+
 2. Make the navigation model codable
 		* Don't store entire model value
 			* Repeated information
 			* Can change independently
+
 ```
 class NavigationModel: ObservableObject, Codable {
 	@Published var selectedCategory: Category?
@@ -234,7 +256,9 @@ class NavigationModel: ObservableObject, Codable {
 	var jsonData: Data? { ... }
 }
 ```
+
 3. Use SceneStorage to save and restore
+
 ```
 @StateObject private var navModel = NavigationModel()
 @SceneStorage ("navigation") private var data: Data?
@@ -256,6 +280,7 @@ var body: some View {
 ---
 
 ### **Navigation tips**
+
 * NavigationView with stack style -> NavigationStack
 * NavigationView with multiple columns -> NavigationSplitView
 * `NavigationLink(... isActive: ...)` and `NavigationLink(... tag: ... selection: ...) -> NavigationLink(... value: ...)

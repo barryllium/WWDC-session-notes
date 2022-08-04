@@ -1,4 +1,4 @@
-# **Link fast: Improve build and launch times**
+# [**Link fast: Improve build and launch times**](https://developer.apple.com/videos/play/wwdc2022/110362/)
 
 Linking is needed to use code from libraries and frameworks
 

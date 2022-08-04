@@ -1,4 +1,4 @@
-# **Hello Swift Charts**
+# [**Hello Swift Charts**](https://developer.apple.com/videos/play/wwdc2022/10136/)
 
 * Apple-designed charts
 * uses same declarative syntax of SwiftUI
@@ -207,6 +207,6 @@ struct LocationsDetailsChart: View {
 * Chart can have multiple marks (points and lines, for example)
 * Marks and Properties are extensible
 * You can add custom marks
-* Swift Charts: Raise the bar #session
+* [**Swift Charts: Raise the bar**](Swift Charts - Raise the bar.md) session
 
 ![](images/helloCharts/marks_and_properties.png)

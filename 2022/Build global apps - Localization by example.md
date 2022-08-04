@@ -1,4 +1,4 @@
-# **Build global apps: Localization by example**
+# [**Build global apps: Localization by example**](https://developer.apple.com/videos/play/wwdc2022/10110/)
 
 ### **Translation**
 
@@ -14,7 +14,7 @@ let windPerceptionLabelText = String(
 * Make sure to use multiple strings for English words that are used in multiple places, if they are used in different contexts
 	* An English word like "archive" that can be a noun and a verb might translated differently for each instance in other languages
 * New API added tot he string initializer, which takes a default value (which can be used for the English string)
-* Check out **Streamline your localized strings** #session from WWDC 2021
+* Check out [**Streamline your localized strings**](https://developer.apple.com/videos/play/wwdc2021/10221/) session from WWDC 2021
 
 ```
 let filter = String(localized: "Archive.label",
@@ -59,7 +59,7 @@ String(localized: "Show weather in My Location",
 * Don't implement pluralization yourself - depending on the language, the rules get more and more complex
 * Instead, use the top code below and include a `stringsdict` file, which encodes the plural rule
 * Another option is to make use of Automatic Grammar Agreement (second example below)
-* Check out **Streamline your localized strings** #session from WWDC 2021
+* Check out [**Streamline your localized strings**](https://developer.apple.com/videos/play/wwdc2021/10221/) session from WWDC 2021
 
 ```
 String(localized: "\(amountOfRain) in last \(numberOfHours) hour",
@@ -102,8 +102,8 @@ Text(humidity, format: .percent)
 humidity.formatted(.percent)
 ```
 
-* Swift includes many different kinds of foramtters
-* Check out the **Formatters: Make data humand-friendly** #session from WWDC 2020
+* Swift includes many different kinds of formatters
+* Check out the [**Formatters: Make data human-friendly**](https://developer.apple.com/videos/play/wwdc2020/10160/) session from WWDC 2020
 
 ![](images/localization/formatters.png)
 
@@ -220,7 +220,7 @@ English | Spanish
 		* Exports `.xcloc` files to send to translators
 		* Import localizations to put localizations back into the package
 	* Loading a string in a swift package requires that you specify the `bundle` argument
-* Check out **Swift packages: Resources and localization** #session from WWDC 2020
+* Check out [**Swift packages: Resources and localization**](https://developer.apple.com/videos/play/wwdc2020/10169/) session from WWDC 2020
 
 ```
 let package = Package(
@@ -257,7 +257,7 @@ let title = String(localized: "Wind",
 	* This affects the layout of your app
 	* Different symbols might be used
 	* May be right-to-left language
-		* Check out **Get it right ... to left** #session
+		* Check out [**Get it right ... to left**](https://developer.apple.com/videos/play/wwdc2022/10107/) session
 
 ![](images/localization/two_languages.png)
 

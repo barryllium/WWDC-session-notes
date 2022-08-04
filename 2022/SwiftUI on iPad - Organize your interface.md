@@ -1,4 +1,4 @@
-# **SwiftUI on iPad: Organize your interface**
+# [**SwiftUI on iPad: Organize your interface**](https://developer.apple.com/videos/play/wwdc2022-10058)
 
 ### **Lists and tables**
 
@@ -8,7 +8,7 @@ Multi-column tables
 * Same API as on the Mac
 * Supports `Section` on both platforms
 * In compact width layouts, tables will only show their first column (iPhone, slide-over)
-* SwiftUI on the Mac: Build the fundamentals #session
+* [**SwiftUI on the Mac: Build the fundamentals**](https://developer.apple.com/videos/play/wwdc2021/10062/) session from WWDC 2021
 
 ![](images/swiftUIiPad/multi_column_table.png)
 
@@ -70,7 +70,7 @@ List and table selection
 	* `ForEach` will automatically tag content with its explicit identity
 	* `Table` will automatically tag content with the row value identity
 	* `.id` does not set the tag
-	* Check out Demystify SwiftUI #session from WWDC 2021
+	* Check out [**Demystify SwiftUI**](../2021/Demystify SwiftUI.md) session from WWDC 2021
 * Manual Tags
 	* Use `View.tag(_:)`
 	* Tag type is important

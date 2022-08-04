@@ -1,4 +1,4 @@
-# **Visualize and optimize Swift concurrency**
+# [**Visualize and optimize Swift concurrency**](https://developer.apple.com/videos/play/wwdc2022-110350)
 
 ### **Swift Concurrency Recap**
 
@@ -352,8 +352,8 @@ await withCheckedContinuation { continuation in
 }
 ```
 
-* **Eliminate data races using swift Concurrency** #session
-* **Swift Concurrency: Behind the scenes** #session from WWDC 2021
+* [**Eliminate data races using swift Concurrency**](Eliminate data races using Swift Concurrency.md) session
+* [**Swift Concurrency: Behind the scenes**](https://developer.apple.com/videos/play/wwdc2021/10254/) session from WWDC 2021
 
 
 

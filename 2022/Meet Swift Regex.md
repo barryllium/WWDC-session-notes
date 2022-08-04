@@ -1,4 +1,4 @@
-# **Meet Swift Regex**
+# [**Meet Swift Regex**](https://developer.apple.com/videos/play/wwdc2022/110357/)
 
 Scenario - need to parse transaction data
 
@@ -328,4 +328,4 @@ let transactionMatcher = Regex {
 * Use real parsers whenever possible
 * The Unicode Way, by default
 * Thing globally, act Locally
-* Swift Regex: Beyond the basics #session
+* [Swift Regex: Beyond the basics](Swift Regex - Beyond the basics.md) session

@@ -1,4 +1,4 @@
-# **Use SwiftUI with UIKit**
+# [**Use SwiftUI with UIKit**](https://developer.apple.com/videos/play/wwdc2022-10072)
 
 ### **UIHostingController**
 
@@ -54,7 +54,7 @@ self.present(hostingController, animated: true)
 SwiftUI offers a variety of data flow primitives to help you manage the data in your app
 
 * `@State` and `@StateObject` are useful only when a SwiftUI view owns the data - so they don't apply here
-	* Can learn more about these in the **Data Essentials in SwiftUI** #session from WWDC 2020
+	* Can learn more about these in the [**Data Essentials in SwiftUI**](https://developer.apple.com/videos/play/wwdc2020/10040/) session from WWDC 2020
 * You can pass arguments directly into a SwiftUI view as arguments
 	* You are responsible for manually updating the UIHostingController when this data changes
 	* Important note - we save a reference to the hosting controller and *not* `HeartRateView`, because `HeartRateView` is a value type, so it would only store a copy of the View
@@ -139,7 +139,7 @@ Cell Configurations
 * Lightweight description of a cell's appearance
 * Applied to a cell to render
 * Composable
-* See the **Modern cell configuration** #session from WWDC 2020
+* See the [**Modern cell configuration**](https://developer.apple.com/videos/play/wwdc2020/10027/) session from WWDC 2020
 
 UIHostingConfiguration is a content configuration that is initialized with a SwiftUI ViewBuilder
 
@@ -323,7 +323,7 @@ Two types of changes we need to handle separately:
 * New in iOS 16
 * Enabled by default for collection and table views
 * Cells automatically resized when their content changes
-* Learn more in the [**What's new in UIKit**](What's new in UIKit.md) #session
+* Learn more in the [**What's new in UIKit**](What's new in UIKit.md) session
 
 **Handling changes to properties of objects**
 

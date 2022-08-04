@@ -1,4 +1,4 @@
-# **What's new in PDFKit**
+# [**What's new in PDFKit**](https://developer.apple.com/videos/play/wwdc2022-10089)
 
 ### **PDFKit review**
 

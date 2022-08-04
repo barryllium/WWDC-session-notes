@@ -1,4 +1,4 @@
-# **Reduce networking delays for a more responsive app**
+# [**Reduce networking delays for a more responsive app**](https://developer.apple.com/videos/play/wwdc2022-10078)
 
 ### **Latency Matters**
 
@@ -18,8 +18,8 @@ You can reduce your app's latency significantly by adopting modern protocols
 * TLS 1.3
 * HTTP/3
 * Related:
-	* **Reduce network delays for your app** #session from WWDC 2021
-	* **Accelerate networking with HTTP/3 and QUIC** #session from WWDC 2021
+	* [**Reduce network delays for your app**](https://developer.apple.com/videos/play/wwdc2021/10239/) session from WWDC 2021
+	* [**Accelerate networking with HTTP/3 and QUIC**](https://developer.apple.com/videos/play/wwdc2021/10094/) session from WWDC 2021
 
 ![](images/reducedelays/http.png)
 

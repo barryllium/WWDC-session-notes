@@ -1,4 +1,4 @@
-# **Bring multiple windows to your SwiftUI app**
+# [**Bring multiple windows to your SwiftUI app**](https://developer.apple.com/videos/play/wwdc2022/10061/)
 
 ### **Scene basics**
 

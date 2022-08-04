@@ -1,4 +1,4 @@
-# **Eliminate data races using Swift Concurrency**
+# [**Eliminate data races using Swift Concurrency**](https://developer.apple.com/videos/play/wwdc2022/110351/)
 
 ### **Task isolation**
 

@@ -1,4 +1,4 @@
-# **Meet WeatherKit**
+# [**Meet WeatherKit**](https://developer.apple.com/videos/play/wwdc2022/10003/)
 
 * Powered by Apple Weather Service
 * High-resolution weather models

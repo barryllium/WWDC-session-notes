@@ -1,4 +1,4 @@
-# **Meet the expanded San Francisco font family**
+# [**Meet the expanded San Francisco font family**](https://developer.apple.com/videos/play/wwdc2022/110381/)
 
 ### **Meet the family**
 
@@ -17,7 +17,7 @@ Optical sizes - fonts display slightly differently based on point size
 
 ![](images/sanfran/optical_sizes.png)
 
-For more about typography: The details of UI typography #session from WWDC 2020
+For more about typography: [**The details of UI typography**](https://developer.apple.com/videos/play/wwdc2020/10175/) session from WWDC 2020
 
 ---
 

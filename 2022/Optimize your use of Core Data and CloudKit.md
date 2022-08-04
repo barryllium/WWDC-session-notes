@@ -1,13 +1,13 @@
-# **Optimize your use of Core Data and CloudKit**
+# [**Optimize your use of Core Data and CloudKit**](https://developer.apple.com/videos/play/wwdc2022/10119/)
 
 Related Content:
 
 * `NSPersistentCloudKitContainer`
 * [Sample Application](https://developer.apple.com/documentation/coredata/synchronizing_a_local_store_to_the_cloud)
-* **Build apps that share data though CloudKit and Core Data** #session from WWDC 2021
-* **Using Core Data with CloudKit** #session from WWDC 2019
-* **Getting Started with Instruments** #session from WWDC 2019
-* **Diagnose performance issues with the Xcode Organizer** #session from WWDC 2020
+* [**Build apps that share data though CloudKit and Core Data**](https://developer.apple.com/videos/play/wwdc2021/10015/) session from WWDC 2021
+* [**Using Core Data with CloudKit**](https://developer.apple.com/videos/play/wwdc2019/202/) session from WWDC 2019
+* [**Getting Started with Instruments**](https://developer.apple.com/videos/play/wwdc2019/411/) session from WWDC 2019
+* [**Diagnose performance issues with the Xcode Organizer**](https://developer.apple.com/videos/play/wwdc2020/10076/) session from WWDC 2020
 
 ### **Exploration**
 

@@ -1,4 +1,4 @@
-# **Adopt desktop-class editing interactions**
+# [**Adopt desktop-class editing interactions**](https://developer.apple.com/videos/play/wwdc2022/10071/)
 
 ### **Edit menu**
 
@@ -114,9 +114,9 @@ Mac Catalyst support
 Using UIMenu with edit menu
 
 * `UIEditMenuInteraction` is built on the `UIMenuElement` family of API
-	* Watch the **Modernizing Your UI for iOS 13** #session from WWDC 2019
+	* Watch the [**Modernizing Your UI for iOS 13**](https://developer.apple.com/videos/play/wwdc2019/224/) session from WWDC 2019
 * Uses `UIMenuSystem.context` to build its menus
-	* Watch the **Taking your iPad apps to the next level** #session from WWDC 2021
+	* Watch the [**Take your iPad apps to the next level**](https://developer.apple.com/videos/play/wwdc2021/10057/) session from WWDC 2021
 
 **UIMenu enhancements**
 

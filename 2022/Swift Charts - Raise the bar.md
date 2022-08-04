@@ -1,4 +1,4 @@
-# **Swift Charts: Raise the bar**
+# [**Swift Charts: Raise the bar**](https://developer.apple.com/videos/play/wwdc2022-10137)
 
 ### **Marks and composition**
 

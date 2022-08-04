@@ -1,6 +1,6 @@
-# **Meet distributed actors in Swift**
+# [**Meet distributed actors in Swift**](https://developer.apple.com/videos/play/wwdc2022/110356/)
 
-Swift Actors: Protect mutable state with Swift actors #session from WWDC 2021
+Swift Actors: [**Protect mutable state with Swift actors**](https://developer.apple.com/videos/play/wwdc2021/10133/) session from WWDC 2021
 
 ### **Tic Tac Fish**
 
@@ -246,7 +246,7 @@ struct Main {
 **Peer-to-peer: local networking**
 
 * Local Networking implementation not in this talk
-	* Can find more information in Advances in Networking, Part 2 #session from WWDC 2019
+	* Can find more information in [**Advances in Networking, Part 2**](https://developer.apple.com/videos/play/wwdc2019/712/) session from WWDC 2019
 * Use carefully, can expose very privacy-centered information
 
 Can no longer just make up ideas like previously - we gave to discover the specific actor on the other device
@@ -361,5 +361,5 @@ ClusterSystem
 * Swift Forums
 	* Distributed actors category
 * Other sessions
-	* Protect mutable state with Swift actors #session from WWDC 2021
-	* Advances in Networking, Part 2 #session from WWDC 19
+	* [**Protect mutable state with Swift actors**](https://developer.apple.com/videos/play/wwdc2021/10133/) session from WWDC 2021
+	* [**Advances in Networking, Part 2**](https://developer.apple.com/videos/play/wwdc2019/713/) session from WWDC 19

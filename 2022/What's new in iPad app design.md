@@ -1,4 +1,4 @@
-# **What's new in iPad app design**
+# [**What's new in iPad app design**](https://developer.apple.com/videos/play/wwdc2022-10009)
 
 ### **Toolbars**
 

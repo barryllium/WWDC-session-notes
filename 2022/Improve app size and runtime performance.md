@@ -1,4 +1,4 @@
-# **Improve app size and runtime performance**
+# [**Improve app size and runtime performance**](https://developer.apple.com/videos/play/wwdc2022/110363/)
 
 ### **Protocol checks**
 
@@ -7,7 +7,7 @@
 * Protocol check metadata costs launch time
 * Now precomputed as part of the dyld closure
 * Enabled even for existing apps in iOS 16, et al
-* To learn more about dyld and launch closures, watch the **App Startup Time: Past, Present, and Future** #session from WWDC 2017
+* To learn more about dyld and launch closures, watch the [**App Startup Time: Past, Present, and Future**](https://developer.apple.com/videos/play/wwdc2017/413/) session from WWDC 2017
 
 ---
 
@@ -16,7 +16,7 @@
 * Message send up to 8 bytes smaller in Xcode 14 (down from 12 on Arm64)
 * Binaries up to 2% smaller overall
 * Enabled automatically when building with Xcode 14, even with a lower deployment target
-	* Defaults to balanced performance and sixe
+	* Defaults to balanced performance and size
 	* Can opt into optimizing for size only using `-W1, -objc_stubs_small`
 
 **Previous process**

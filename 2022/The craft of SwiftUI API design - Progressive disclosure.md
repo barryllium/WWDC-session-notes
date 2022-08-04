@@ -1,4 +1,4 @@
-# **The craft of SwiftUI API design: Progressive disclosure**
+# [**The craft of SwiftUI API design: Progressive disclosure**](https://developer.apple.com/videos/play/wwdc2022-10059)
 
 Call site and declaration site:
 
