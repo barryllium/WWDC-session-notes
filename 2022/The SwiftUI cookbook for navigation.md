@@ -173,8 +173,8 @@ var body: some View {
 ```
 
 * `.navigationDestination` should be attached to the scrollView, not to the NavigationLink
-		* Lazy containers like List, Table, LazyVGrid don't load all views immediately
-		* would be repeated for every item in the Grid
+	* Lazy containers like List, Table, LazyVGrid don't load all views immediately
+	* would be repeated for every item in the Grid
 
 ```
 struct RecipeGrid: View {
@@ -190,7 +190,7 @@ struct RecipeGrid: View {
 				}
 			}
 			.navigationTitle(category.name)
-			•navigationDestination(for: Recipe.self) { recipe in RecipeDetail (recipe: recipe)
+			.navigationDestination(for: Recipe.self) { recipe in RecipeDetail (recipe: recipe)
 		} else { .. }
 	}
 }
