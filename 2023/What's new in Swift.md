@@ -17,7 +17,7 @@
 
 Swift 5.9 adds ability to let if/else and switch statements to be used as expressions
 
-```
+```swift
 // The old way
 let bullet =
   isRoot && (count == 0 || !willExpand) ? ""
@@ -34,10 +34,10 @@ let bullet =
 
 * Another example:
 
-```
+```swift
 // Old code
 let attributedName = {
-		if let displayName, !displayName.isEmpty {
+  if let displayName, !displayName.isEmpty {
             AttributedString(markdown: displayName)
         } else {
             "Untitled"
@@ -46,7 +46,7 @@ let attributedName = {
 
 // New code
 let attributedName = 
-		if let displayName, !displayName.isEmpty {
+  if let displayName, !displayName.isEmpty {
             AttributedString(markdown: displayName)
         } else {
             "Untitled"
@@ -59,7 +59,7 @@ Result builders
 * Improved code completion
 * More accurate error messages
 
-```
+```swift
 // Previously invalid code would show misleading errors on the wrong line
 struct ContentView: View {
     enum Destination { case one, two }
@@ -97,12 +97,12 @@ struct ContentView: View {
 }
 ```
 
-**Additions to Generics system**
+#### Additions to Generics system
 
 * Most code uses generics behind the scenes
 * Below is an example from the Swift code base. An API that takes a request type and evaluates it to produce a strongly typed value. So you can make a request for a Boolean value and get back a Boolean result.
 
-```
+```swift
 struct Request<Result> { ... }
 
 struct RequestEvaluator {
@@ -117,7 +117,7 @@ func evaluate(_ request: Request<Bool>) -> Bool {
 * Some APIs want to abstract not only over concrete types, but also the number of arguments that you pass in. So a function might take one request and return one result or two requests and return two results, or three and return three results.
     * To support this, the generics system has to be used together with a mechanism to handle multiple argument lengths so that all of the types that you pass in are linked to the types that you get out.
 
-```
+```swift
 let value = RequestEvaluator().evaluate(request)
 
 let (x, y) = RequestEvaluator().evaluate(r1, r2)
@@ -127,7 +127,7 @@ let (x, y, z) = RequestEvaluator().evaluate(r1, r2, r3)
 
 * Before Swift 5.9, you had to provide an overload for each specific argument length that the API supported:
 
-```
+```swift
 func evaluate<Result>(_:) -> (Result)
 
 func evaluate<R1, R2>(_:_:) -> (R1, R2)
@@ -149,7 +149,7 @@ let results = evaluator.evaluate(r1, r2, r3, r4, r5, r6, r7)
     * This concept is called a `Type parameter pack`
     * Check out [**Generalize APIs using parameter packs**](Generalize APIs using parameter packs.md) session
 
-```
+```swift
 struct Request<Result> { ... }
 
 struct RequestEvaluator {
@@ -160,13 +160,13 @@ struct RequestEvaluator {
 let results = RequestEvaluator.evaluate(r1, r2, r3)
 ```
 
-**New Macro system**
+#### New Macro system
 
 * assert is example of where macros help
     * throwing an assert gives very little information of what went wrong without other logging, other than where the assertion happened
     * XCTest provides an assertequal option, which provides more information, but we still don't know which value is wrong
 
-```
+```swift
 // throws "assert.swift:5: Assertion failed"
 assert(max(a, b) == c)
 
@@ -179,9 +179,9 @@ XCAssertEqual(max(a, b), c) //XCTAssertEqual failed: ("10") is not equal to ("17
     * Now the program will show the code for the failing assertion, along with each of the values that contributed to the result
     * macros are APIs like type or function. You can access them by importing the module that defines them
 
-![](images/new_swift/assert.png)
+![Assert](images/new_swift/assert.png)
 
-```
+```swift
 // Macro declarations
 public macro assert(_ condition: Bool)
 
@@ -193,7 +193,7 @@ import PowerAssert
 * Macro declarations have one additional piece of information, their role.
     * Freestanding macros use the "hash syntax"
 
-```
+```swift
 @freestanding(expression)
 public macro assert(_ condition: Bool) = #externalMacro(
   module: “PowerAssertPlugin”,
@@ -201,13 +201,13 @@ public macro assert(_ condition: Bool) = #externalMacro(
 )
 ```
 
-![](images/new_swift/macro_flow.png)
+![Macro Flow](images/new_swift/macro_flow.png)
 
 * The new Foundation Predicate APIs provide a great example of an expression macro.
 * The predicate macro allows one to write predicates in a type-safe manner using closures.
 * The resulting predicate values can then be used with a number of other APIs
 
-```
+```swift
 // Predicate expression macro
 
 @freestanding(expression) 
@@ -227,10 +227,10 @@ let blueLovers = people.filter(pred)
     * `@CaseDetection` can help here
         * An attached macro, written like a property wrapper
         * Attached macros take as input the syntax of the declaration they apply to
-        * Macro-expanded code is normal Swift code, which the compiler integrates into your program. 
+        * Macro-expanded code is normal Swift code, which the compiler integrates into your program.
             * You can inspect the macro-generated code in your editor, debug into it, copy it out if you want to customize it further, etc.
 
-```
+```swift
 // Old code
 enum Path {
   case relative(String)
@@ -276,14 +276,14 @@ let absPaths = paths.filter { $0.isAbsolute }
 
 Attached macro roles:
 
-![](images/new_swift/macro_roles.png)
+![Macro Roles](images/new_swift/macro_roles.png)
 
 * Several attached macro roles can be composed together to achieve useful effects
 * Swift Observation is an example of this
 * Attaching the Observable macro to a class provides observation for all of its stored properties.
     * There is no need to annotate each stored property or worry about what happens if you don't because the Observable macro handles it all.
 
-```
+```swift
 // Observation in SwiftUI prior to 5.9
 final class Person: ObservableObject {
     @Published var name: String
@@ -324,14 +324,14 @@ struct ContentView: View {
         * Error messages within macro-generated code will automatically show the expanded code
         * You can step into and out of it with your debugger.
 
-```
+```swift
 @attached(member, names: ...)
 @attached(memberAttribute)
 @attached(conformance)
 public macro Observable() = #externalMacro(...).
 ```
 
-![](images/new_swift/observable_macro_expansion.png)
+![Observable Macro Expansion](images/new_swift/observable_macro_expansion.png)
 
 * In summary
     * Macros enable expressive APIs and eliminate boilerplate
@@ -362,9 +362,9 @@ public macro Observable() = #externalMacro(...).
             * We can add the `~Copyable` conformance to the struct, which will prohibit copying and allow addition of a deinit to the struct, like in the updated code below
             * Non-copyable types can also have functions with the `consuming` type (see the updated `close()` function below), which give up ownership of the struct after it is run
                 * This means you can no longer use the value at all, and thus cannot call its `write` function
-        
 
-```
+
+```swift
 // Original code
 struct FileDescriptor {
   private var fd: CInt
@@ -408,7 +408,7 @@ struct FileDescriptor: ~Copyable {
 
 * Updated workflows using our new FileDescriptor
 
-```
+```swift
 // This works great
 let file = FileDescriptor(fd: descriptor)
 file.write(buffer: data)
@@ -424,13 +424,13 @@ file.write(buffer: data) // Compiler error: 'file' used after consuming
     * Later versions of Swift will expand on non-copyable types in generic code.
 
 
-**C++ Interoperability**
+#### C++ Interoperability
 
 * C++ interoperability works just like Objective-C interoperability has, mapping C++ APIs into their Swift equivalents that you can use directly from Swift code
     * The Swift compiler treats the `Person` type below as a value type and will automatically call the right special member function at the right time.
     * C++ containers like vectors and maps are accessible as Swift collections.
 
-```
+```c++
 // C++ Code
 struct Person {
   Person(const Person &);
@@ -457,7 +457,7 @@ func greetAdults() {
     * Unlike with Objective-C, you don't need to restrict yourself to only using Swift classes annotated with the objc attribute.
         * C++ can directly use most Swift types and their full APIs, including properties, methods, and initializers, without any bridging overhead
 
-```
+```swift
 // Geometry.swift
 struct LabeledPoint {
   var x = 0.0, y = 0.0
@@ -479,12 +479,12 @@ void test() {
 
 * Use C++ APIs directly from Swift
 * Expose most Swift APIs directly to C++
-* [**Mix Swift and C++**]() **session
+* [**Mix Swift and C++**](https://developer.apple.com/videos/play/wwdc2023/10172/) session
 * CMake support added to be able to use Swift in cross-platform C++ projects
 
-![](images/new_swift/cmake_support.png)
+![CMake Support](images/new_swift/cmake_support.png)
 
-**Actors and concurrency**
+#### Actors and concurrency
 
 * Abstact concurrency model
     * Tasks - sequential unit of work that can be run anywhere
@@ -500,7 +500,7 @@ void test() {
         * Makes actors more flexible and adaptable to existing environments
         * Example:
 
-```
+```swift
 // Original Code
 actor MyConnection {
   private var database: UnsafeMutablePointer<sqlite3>
@@ -520,7 +520,7 @@ await connection.pruneOldEntries()
         * Gives you more control over how individual actors provide synchronization
         * Lets you synchronize an actor with other code that isn't using actors yet (Including code written in Objective-C or C++)
 
-```
+```swift
 // Updated code
 actor MyConnection {
   private var database: UnsafeMutablePointer<sqlite3>
@@ -539,7 +539,7 @@ await connection.pruneOldEntries()
 
 * The synchronization of actors via dispatch queues is made possible because dispatch queue conforms to the new SerialExecutor protocol
 
-```
+```swift
 // Executor protocols
 protocol Executor: AnyObject, Sendable {
   func enqueue(_ job: consuming ExecutorJob)
@@ -566,29 +566,30 @@ extension DispatchSerialQueue: SerialExecutor { … }
 * They were looking to modernize their code base and found Swift to be a good match for its performance, safety, and code clarity
 * Leveraged Swift's interoperability to integrate into the existing code base
 
-```
+```c++
 // C++ implementation of FoundationDB’s “master data” actor
 ACTOR Future<Void> getVersion(Reference<MasterData> self, GetCommitVersionRequest req) {
-	state std::map<UID, CommitProxyVersionReplies>::iterator proxyItr = 
+   state std::map<UID, CommitProxyVersionReplies>::iterator proxyItr = 
         self->lastCommitProxyVersionReplies.find(req.requestingProxy);
-	++self->getCommitVersionRequests;
+   ++self->getCommitVersionRequests;
 
-	if (proxyItr == self->lastCommitProxyVersionReplies.end()) {
-  	    req.reply.send(Never());
-	    return Void();
-	}
-	wait(proxyItr->second.latestRequestNum.whenAtLeast(req.requestNum - 1));
+   if (proxyItr == self->lastCommitProxyVersionReplies.end()) {
+       req.reply.send(Never());
+     return Void();
+ }
+   wait(proxyItr->second.latestRequestNum.whenAtLeast(req.requestNum - 1));
   
-	auto itr = proxyItr->second.replies.find(req.requestNum);
-	if (itr != proxyItr->second.replies.end()) {
-		req.reply.send(itr->second);
-		return Void();
-	}
+ auto itr = proxyItr->second.replies.find(req.requestNum);
+ if (itr != proxyItr->second.replies.end()) {
+  req.reply.send(itr->second);
+  return Void();
+ }
 
-	// ...
+ // ...
 }
+```
 
-
+```swift
 // Swift implementation of FoundationDB’s “master data” actor
 func getVersion(
     myself: MasterData, req: GetCommitVersionRequest

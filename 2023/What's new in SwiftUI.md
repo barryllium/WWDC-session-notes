@@ -16,7 +16,7 @@
     * `ImmersiveSpace` for AR/VR immersion
     * [**Meet SwiftUI for spatial computing**](https://developer.apple.com/videos/play/wwdc2023/10109/) session
 
-**watchOS 10**
+#### watchOS 10
 
 * NavigationSplitView and NavigationStack get beautiful new transitions.
 * TabView gets a new vertical paging style driven by the Digital Crown.
@@ -26,15 +26,15 @@
 
 Container Background | Toolbar placements
 -------------------- | ------------------
-![](images/new_swiftui/background.png) | ![](images/new_swiftui/toolbar.png)
+![Container Background](images/new_swiftui/background.png) | ![Toolbar Placements](images/new_swiftui/toolbar.png)
 
 * Some existing API brought to Apple Watch for the first time
     * DatePicker
     * Selection in list
 * [**Design and build apps for watchOS 10**](Design and build apps for watchOS 10.md) session
-* [**Update your app for watchOS 10**]() **session
+* [**Update your app for watchOS 10**](https://developer.apple.com/videos/play/wwdc2023/10031/) session
 
-**Widgets**
+#### Widgets
 
 * Widgets for the Smart Stack on watchOS 10
 * Lock screen on iPadOS 17
@@ -45,11 +45,11 @@ Container Background | Toolbar placements
 * [**Bring widgets to new places**](Bring widgets to new places.md) session
 * [**Bring widgets to life**](Bring widgets to life.md) session
 
-**Previews**
+#### Previews
 
 * Previews are useful for developing and refining widgets
 
-```
+```swift
 #Preview(as: .systemSmall) {
     CaffeineTrackerWidget()
 } timeline: {
@@ -59,11 +59,12 @@ Container Background | Toolbar placements
     CaffeineLogEntry.log4
 }
 ```
-![](images/new_swiftui/widget_timeline.png)
+
+![Widget Timeline Preview](images/new_swiftui/widget_timeline.png)
 
 * Work with regular SwiftUI views as well
 
-```
+```swift
 #Preview("good dog") {
     ZStack(alignment: .bottom) {
         Rectangle()
@@ -78,23 +79,23 @@ Container Background | Toolbar placements
 }
 ```
 
-![](images/new_swiftui/good_dog.png)
+![New Preview Macro](images/new_swiftui/good_dog.png)
 
 * Can interact with previews of Mac apps right inside Xcode
 
-![](images/new_swiftui/mac_preview.png)
+![Mac Preview](images/new_swiftui/mac_preview.png)
 
 * [**Build programmatic UI with Xcode Previews**](Build programmatic UI with Xcode Previews.md) session
 * [**What's new in Swift**](What's new in Swift.md) session
 
-**SwiftUI extensions to other Apple frameworks**
+#### SwiftUI extensions to other Apple frameworks
 
-![](images/new_swiftui/frameworks.png)
+![Frameworks](images/new_swiftui/frameworks.png)
 
 * MapKit
     * [**Meet MapKit for SwiftUI**](https://developer.apple.com/videos/play/wwdc2023/10043) session
 
-```
+```swift
 import SwiftUI
 import MapKit
 
@@ -126,7 +127,7 @@ struct Maps_Snippet: View {
     * Donut and pie charts
     * [**Explore pie charts and interactivity in Swift Charts**]() **session
 
-```
+```swift
 import SwiftUI
 import Charts
 
@@ -201,7 +202,7 @@ struct SalesData: Plottable {
 }
 ```
 
-```
+```swift
 import SwiftUI
 import Charts
 
@@ -252,9 +253,9 @@ struct Bagel {
 * StoreKit
     * Present a subscription store view with your custom marketing content.
     * Configure a full-bleed background to match your branding and choose from a variety of control options.
-    * [**Meet StoreKit for SwiftUI**](Meet StoreKit for SwiftUI.md) **session
+    * [**Meet StoreKit for SwiftUI**](Meet StoreKit for SwiftUI.md) session
 
-```
+```swift
 import SwiftUI
 import StoreKit
 
@@ -279,10 +280,10 @@ struct SubscriptionStore_Snippet {
 
 * New `@Observable` macro
     * No need to mark properties as `@Published`
-    * SwiftUI will automatically establish dependencies on properties you read. 
+    * SwiftUI will automatically establish dependencies on properties you read.
     * No need to use a property wrapper when reading
 
-```
+```swift
 import Foundation
 import SwiftUI
 
@@ -305,17 +306,17 @@ enum DogBreed {
 }
 ```
 
-* Below view is reading the isFavorite property, so when that changes, it will get reevaluated. 
+* Below view is reading the isFavorite property, so when that changes, it will get reevaluated.
     * Invalidation only happens for properties which are read, so you can pass your model through intermediate views without triggering any unnecessary updates.
 
-![](images/new_swiftui/symbol_variant.png)
+![Is Favorite Property](images/new_swiftui/symbol_variant.png)
 
 * When using @Observable, you only need `@State` and `@Environment` dynamic properties
     * Below code uses the `User` type as the environment key, but custom keys are also supported.
 
-![](images/new_swiftui/add_sighting.png)
+![Environment Key](images/new_swiftui/add_sighting.png)
 
-```
+```swift
 import SwiftUI
 
 @main
@@ -365,7 +366,7 @@ private struct WhatsNew2023: App {
 
 * [**Discover Observation in SwiftUI**](Discover Observation in SwiftUI.md) session
 
-**SwiftData**
+#### SwiftData
 
 * Models are represented entirely by their code
     * Switch from using `@Observable` to `@Model` to leverage SwiftData
@@ -375,12 +376,12 @@ private struct WhatsNew2023: App {
 
 | Default sorting | Custom sorting |
 | --------------- | -------------- |
-| ![](images/new_swiftui/recent_dogs.png) | ![](images/new_swiftui/recent_dogs_sorted.png) |
+| ![Default Sorting](images/new_swiftui/recent_dogs.png) | ![Custom Sorting](images/new_swiftui/recent_dogs_sorted.png) |
 
 * Document Based apps can use SwiftData with a new initializer
     * SwiftUI will use SwiftData for the underlying storage of each document, and automatically set up a model container
 
-```
+```swift
 import SwiftUI
 import SwiftData
 import UniformTypeIdentifiers
@@ -415,14 +416,14 @@ extension UTType {
 * [**Meet SwiftData**](Meet SwiftData.md) session
 * [**Build an app with SwiftData**](Build an app with SwiftData.md) session
 
-**DocumentGroup**
+#### DocumentGroup
 
 * DocumentGroup also gains a number of new platform affordances when running on iOS 17 or iPadOS 17
     * Automatic sharing
     * Document renaming support
     * Undo controls in the toolbar
 
-**Inspector**
+#### Inspector
 
 * New modifier for displaying details about the current selection or context
     * Presented as a distinct section in your interface.
@@ -430,23 +431,23 @@ extension UTType {
         * In compact size classes, it will present itself as a sheet.
     * [**Inspectors in SwiftUI: discover the details**](Inspectors in SwiftUI: discover the details.md) session
 
-![](images/new_swiftui/inspector.png)
+![Inspector View](images/new_swiftui/inspector.png)
 
-**Dialogs**
+#### Dialogs
 
 * New customization APIs in iOS 17 and macOS Sonoma
 
 | Labels | Severity and suppression |
 | ----- | ------ |
-| ![](images/new_swiftui/dialog1.png) | ![](images/new_swiftui/dialog2.png) |
+| ![Dialog Labels](images/new_swiftui/dialog1.png) | ![Severity And Suppression](images/new_swiftui/dialog2.png) |
 
-**Lists and Tables**
+#### Lists and Tables
 
 * Tables support customization of their column ordering and visibility.
     * When coupled with the SceneStorage dynamic property, these preferences can be persisted across runs of your app.
     * You provide the table with a value representing the customization state and give each column a unique stable identifier.
 
-```
+```swift
 import SwiftUI
 
 struct DogSightingsTable: View {
@@ -485,7 +486,7 @@ struct DogSightingsTable: View {
 
 * Tables now have OutlineGroup built in
 
-```
+```swift
 import SwiftUI
 
 struct DogGenealogyTable: View {
@@ -534,7 +535,7 @@ struct DogGenealogyTable: View {
 * Sections within a list or table have gained support for programmatic expansion.
     * New initializer takes a binding to a value which reflects the current expansion state of the section
 
-```
+```swift
 import SwiftUI
 
 struct ExpandableSectionsView: View {
@@ -585,7 +586,7 @@ struct ExpandableSectionsView: View {
         * Column headers display
     * New background prominence environment property
 
-```
+```swift
 import SwiftUI
 
 struct TableDisplayCustomizationView: View {
@@ -664,7 +665,7 @@ extension ShapeStyle where Self ==
     * An animation can have multiple tracks
     * [**Wind your way through advanced animations in SwiftUI**](Wind your way through advanced animations in SwiftUI.md) session
 
-```
+```swift
 import SwiftUI
 
 struct KeyframeAnimator_Snippet: View {
@@ -753,9 +754,9 @@ struct Logo: View {
         * Default animation for apps built on or after iOS 17 and aligned releases
     * New sensory feedback API
         * use `.sensoryFeedback(.increase, trigger: sightingCount)` to play haptic feedback
-        * https://developer.apple.com/design/human-interface-guidelines/playing-haptics
+        * <https://developer.apple.com/design/human-interface-guidelines/playing-haptics>
 
-```
+```swift
 import SwiftUI
 
 struct PhaseAnimator_Snippet: View {
@@ -841,7 +842,7 @@ struct HappyDog: View {
             * The closure gets my content to modify and a geometry proxy
     * Automatically adapts to different sizes
 
-```
+```swift
 import SwiftUI
 
 struct VisualEffects_Snippet: View {
@@ -1068,7 +1069,7 @@ private let manySampleDogs: [Dog] =
 * New `ShaderLibrary`
     * Turn Metal shader functions directly into SwiftUI shape styles
 
-```
+```swift
 import SwiftUI
 
 struct ShaderUse_Snippet: View {
@@ -1201,7 +1202,7 @@ angledFill(float2 position, float width, float angle, half4 color)
         * Event notifications with bounce
     * [**Animate symbols in your app**](Animate symbols in your app.md) session
 
-```
+```swift
 import SwiftUI
 
 struct SymbolEffect_Snippet: View {
@@ -1261,7 +1262,7 @@ struct SymbolEffect_Snippet: View {
 * `.textScale(...)` modifier allows you to set text scale properly
 * `.typesettingLanguage(...)` modifier lets SwiftUI know that text might need more space.
 
-```
+```swift
 import SwiftUI
 
 struct TypesettingLanguage_Snippet: View {
@@ -1326,7 +1327,7 @@ struct TypesettingLanguage_Snippet: View {
     * `.scrollPosition(id: ...)` modifier takes a binding to the top-most item's id, and is updated as the view is scrolled
     * [**Beyond scroll views**](Beyond scroll views.md) session
 
-```
+```swift
 import SwiftUI
 
 struct ScrollingRecentDogsView: View {
@@ -1453,27 +1454,27 @@ struct ScrollingRecentDogsView: View {
     * Image now supports rendering content with high dynamic range.
         * `.allowedDynamicRange(...)` modifier makes images show with their full fidelity
 
-![](images/new_swiftui/hdr.png)
+![HDR Images](images/new_swiftui/hdr.png)
 
 * Accessibility APIs
     * magnification gesture to allow zooming in
     * `.accessibilityZoomAction { ... }` allows VoiceOver to access zooming functionality without using the gesture
     * [**Build accessible apps with SwiftUI and UIKit**](Build accessible apps with SwiftUI and UIKit.md) session
 
-![](images/new_swiftui/accessibility.png)
+![Accessibility](images/new_swiftui/accessibility.png)
 
 * Color now supports static member syntax
     * Look up custom colors defined in the asset catalog
     * Gives compile-time safety
 
-![](images/new_swiftui/colors.png)
+![Color Support](images/new_swiftui/colors.png)
 
 * Menu Enhancements
     * `.controlGroupStyle(.compactMenu)` will show `ControlGroup` items in a horizontal stack
     * Picker has new `.pickerStyle(.palette)` modifier to display the picker as a horizontal stack of icons
     * `.paletteSelectionEffect(...)` modifier allows us to use a symbol variant to represent the selected item in the picker
 
-```
+```swift
 import SwiftUI
 
 struct DogTagEditMenu: View {
@@ -1547,13 +1548,13 @@ struct DogTagEditMenu: View {
 
 | Button Shape | Drag Actions |
 | ------------ | ------------ |
-| ![](images/new_swiftui/button_shapes.png) | ![](images/new_swiftui/button_spring.png) |
+| ![Button Shape](images/new_swiftui/button_shapes.png) | ![Drag Actions](images/new_swiftui/button_spring.png) |
 
 * Focusable views on platforms with hardware keyboard support can now use the `onKeyPress(...) { ... }` modifier to directly react to any keyboard input
     * Modifier takes a set of keys to match against, and an action to perform for the event
     * [**The SwiftUI cookbook for focus**](The SwiftUI cookbook for focus.md) session
 
-```
+```swift
 DogTagEditor()
     .focusable (true, interactions: .edit)
     .focusEffectDisabled()
