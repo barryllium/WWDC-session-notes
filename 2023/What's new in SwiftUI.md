@@ -125,7 +125,7 @@ struct Maps_Snippet: View {
     * Scrolling Charts
     * Built in support for selection
     * Donut and pie charts
-    * [**Explore pie charts and interactivity in Swift Charts**]() **session
+    * [**Explore pie charts and interactivity in Swift Charts**](https://developer.apple.com/videos/play/wwdc2023/10037/) session
 
 ```swift
 import SwiftUI
