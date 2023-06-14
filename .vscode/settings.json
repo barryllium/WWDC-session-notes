@@ -3,6 +3,8 @@
         "animatable",
         "conformances",
         "diffable",
+        "keyframes",
+        "struct",
         "structs"
     ]
 }
