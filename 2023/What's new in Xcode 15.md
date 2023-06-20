@@ -171,7 +171,7 @@
     * Metadata fields are hidden by default, but you can choose the fields you want to see
     * Can filter on the metadata or on the full text of the log
     * You can jump from a log entry directly back to the line of code that created it (right click, `Jump To Source`)
-    * [**Debug with structured logging**](Debug with structured logging) session
+    * [**Debug with structured logging**](Debug with structured logging.md) session
 
 ![OSLog Metadata Fields](images/new_xcode15/oslog.png)
 

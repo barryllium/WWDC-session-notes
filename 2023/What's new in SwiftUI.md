@@ -429,7 +429,7 @@ extension UTType {
     * Presented as a distinct section in your interface.
         * On macOS, Inspector presents as a trailing sidebar, as well as on iPadOS in a regular size class.
         * In compact size classes, it will present itself as a sheet.
-    * [**Inspectors in SwiftUI: discover the details**](Inspectors in SwiftUI: discover the details.md) session
+    * [**Inspectors in SwiftUI: discover the details**](Inspectors in SwiftUI.md) session
 
 ![Inspector View](images/new_swiftui/inspector.png)
 
