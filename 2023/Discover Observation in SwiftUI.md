@@ -43,8 +43,8 @@ struct DonutMenu: View {
     * Expands types using macros so they can support Observation
     * This lets SwiftUI track access to those properties and observe when the next property will change out of that Observations
     * This lets views recalculate their body only when specific properties change
-    * [**Write Swift macros**](Write Swift macros.md) session
-    * [**Expand on Swift macros**](Expand on Swift macros.md) session
+    * [**Write Swift macros**](./Write%20Swift%20macros.md) session
+    * [**Expand on Swift macros**](./Expand%20on%20Swift%20macros.md) session
 
 ### **SwiftUI property wrappers**
 

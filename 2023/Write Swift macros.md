@@ -146,7 +146,7 @@ let testMacros: [String: Macro.Type] = [
 
 ![Macro roles](images/write_swift_macros/macro_roles.png)
 
-[**Expand on Swift macros**](Expand on Swift macros.md) session
+[**Expand on Swift macros**](./Expand%20on%20Swift%20macros.md) session
 
 * Example of building an app that will be able to track ski slopes, and also track easy slopes for beginners. Below is some of the original code
     * Two enums, the second being a subset of the first
@@ -647,4 +647,4 @@ func testSlopeSubsetOnStruct() throws {
 }
 ```
 
-[**Expand on Swift macros**](Expand on Swift macros.md) session
+[**Expand on Swift macros**](./Expand%20on%20Swift%20macros.md) session

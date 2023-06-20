@@ -38,7 +38,7 @@ Container Background | Toolbar placements
 
 * Widgets for the Smart Stack on watchOS 10
 * Lock screen on iPadOS 17
-* iPHone Always-On display with Standby Mode
+* iPhone Always-On display with Standby Mode
 * macOS Sonoma desktop widgets
 * Widgets can now activate code defined in your own app bundle using App Intents.
 * You can animate your widgets using SwiftUI transition and animation modifiers.

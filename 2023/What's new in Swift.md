@@ -8,7 +8,7 @@
     * Language steering group was created
 * 40 new language proposals overseen since then
     * Some proposals merge together (concurrency came from 10 proposals)
-* New way of tying together propsals via vision documents
+* New way of tying together proposals via vision documents
     * Swift Macros was the first to be accepted in this process
 * An ecosystem steering group has now been created to provide support for the growing developer ecosystem
 
@@ -147,7 +147,7 @@ let results = evaluator.evaluate(r1, r2, r3, r4, r5, r6, r7)
 * Swift 5.9 the generics system is gaining first-class support for this API pattern by enabling generic abstraction over argument length
     * `<each Result>`
     * This concept is called a `Type parameter pack`
-    * Check out [**Generalize APIs using parameter packs**](Generalize APIs using parameter packs.md) session
+    * Check out [**Generalize APIs using parameter packs**](./Generalize%20APIs%20using%20parameter%20packs.md) session
 
 ```swift
 struct Request<Result> { ... }
@@ -336,8 +336,8 @@ public macro Observable() = #externalMacro(...).
 * In summary
     * Macros enable expressive APIs and eliminate boilerplate
     * Macros integrate seamlessly into the development experience
-    * [**Expand on Swift macros**](Expand on Swift macros.md) session
-    * [**Write Swift macros**](Write Swift macros.md) session
+    * [**Expand on Swift macros**](./Expand%20on%20Swift%20macros.md) session
+    * [**Write Swift macros**](./Write%20Swift%20macros.md) session
 
 
 ### **Swift Everywhere**

@@ -308,5 +308,5 @@ let currentSignalImage = UIImage(
 imageView.setSymbolImage(currentSignalImage, contentTransition: .automatic)
 ```
 
-* [**What's new in SF Symbols 5**](What's new in SF Symbols 5.md) session
-* [**Create Animated Symbols**](Create Animated Symbols.md) session
+* [**What's new in SF Symbols 5**](What's%20new%20in%20SF%20Symbols%205.md) session
+* [**Create Animated Symbols**](Create%20animated%20symbols.md) session

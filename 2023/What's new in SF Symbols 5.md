@@ -66,7 +66,7 @@
     * Annotate the layers with either Draw or Erase.
         * With Draw, selected layers draw paths
         * With Erase removes paths in the chosen layer
-* [**Create animated symbols**](Create animated symbols.md) session
+* [**Create animated symbols**](./Create%20animated%20symbols.md) session
 * Erase layers help give the shape depth in animation
 
 ### **New symbols**

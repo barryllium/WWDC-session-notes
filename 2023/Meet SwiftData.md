@@ -57,7 +57,7 @@ class Trip {
     * `@Relationship` - control the choice of inverses and specify delete propagation rules
         * Below, `.cascade` instructs SwiftData to delete all the related bucket list items whenever this trip is deleted
 * Exclude properties with `@Transient`
-* To learn more, check out the [**Model your schema with SwiftData**](Model your schema with SwiftData.md) session
+* To learn more, check out the [**Model your schema with SwiftData**](./Model%20your%20schema%20with%20SwiftData.md) session
 
 ```swift
 @Model
@@ -207,7 +207,7 @@ try context.save()
 
 * `@Model` macro modifiers setters for change tracking and observation
 * Updates automatically by the `Model Context`
-* [**Dive deeper into SwiftData**](Dive deeper into SwiftData.md) session
+* [**Dive deeper into SwiftData**](./Dive%20deeper%20into%20SwiftData.md) session
 
 ### **Use SwiftData with SwiftUI**
 
@@ -248,4 +248,4 @@ struct ContentView: View  {
 * No need for `@Published`
 * SwiftUI automatically refreshes
 
-Learn more in the * [**Build an app with SwiftData**](Build an app with SwiftData.md) session
+Learn more in the * [**Build an app with SwiftData**](./Build%20an%20app%20with%20SwiftData.md) session

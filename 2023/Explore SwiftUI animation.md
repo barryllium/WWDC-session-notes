@@ -427,5 +427,5 @@ extension Transaction {
 ```
 
 * Next steps:
-    * [**Animate with springs**](Animate with springs.md) session
-    * [**Wind your way through advanced animations in SwiftUI**](Wind your way through advanced animations in SwiftUI.md) session
+    * [**Animate with springs**](./Animate%20with%20springs.md) session
+    * [**Wind your way through advanced animations in SwiftUI**](./Wind%20your%20way%20through%20advanced%20animations%20in%20SwiftUI.md) session

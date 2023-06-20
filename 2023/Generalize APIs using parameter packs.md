@@ -2,7 +2,7 @@
 
 ---
 
-Watch [**Embrace Swift Generics**](../2022/Embrace Swift Generics.md) session if you have not yet
+Watch [**Embrace Swift Generics**](../2022/Embrace%20Swift%20generics.md) session if you have not yet
 
 ### **What parameter packs solve**
 

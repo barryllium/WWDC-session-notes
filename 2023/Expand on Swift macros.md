@@ -580,7 +580,7 @@ struct DictionaryStorageMacro: MemberMacro {
         * Some of the syntax nodes in these properties are called "tokens."
             * Represent a specific piece of text in the source file, like a name, or a keyword, or a bit of punctuation, and they just contain that text and any surrounding trivia, like spaces and comments
     * For more on SwiftSyntax
-        * [**Write Swift Macros**](Write Swift Macros.md) session
+        * [**Write Swift Macros**](./Write%20Swift%20macros.md) session
         * SwiftSyntax documentation (either online or use `Product -> Build Documentation` in Xcode)
 
 ![Person as StructDeclSyntax](images/expand_swift_macros/person.png)

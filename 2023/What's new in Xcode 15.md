@@ -27,7 +27,7 @@
 * String catalogs bring localizations into a single place
     * `Edit -> Convert to string catalog` to convert a project to use String catalogs
     * Translations are organized into a single editor
-    * [**Discover string catalogs**](Discover string catalogs.md) session
+    * [**Discover string catalogs**](./Discover%20string%20catalogs.md) session
 
 ![Strings Catalog](images/new_xcode15/strings_catalog.png)
 
@@ -50,8 +50,8 @@
     * Use quick actions, a new feature that lets me access all of Xcode's menu options just by pressing `Command-Shift-A` and selecting `New > Package`
     * Can also choose `Expand Macro` from this menu to expand the macro
     * Can put breakpoints inside expanded macros
-    * [**Expand on Swift macros**](Expand on Swift macros.md) session
-    * [**Write Swift macros**](Write Swift macros.md) session
+    * [**Expand on Swift macros**](./Expand%20on%20Swift%20macros.md) session
+    * [**Write Swift macros**](./Write%20Swift%20macros.md) session
 
 ![Expanded Macro](images/new_xcode15/new_macro.png)
 
@@ -98,7 +98,7 @@
 * New workflows added for building time-based widgets
     * The canvas has a new area that shows all of the entries
     * As you navigate through them, you can see how the widget's transitions animate
-    * [**Build programmatic UI with Xcode Previews**](Build programmatic UI with Xcode Previews) session
+    * [**Build programmatic UI with Xcode Previews**](./Build%20programmatic%20UI%20with%20Xcode%20Previews.md) session
 
 ![Time Based Widget Previews](images/new_xcode15/widget_preview.png)
 
@@ -160,7 +160,7 @@
     * Interactive - can watch test playback or scrub through timeline
     * Touch/mouse events are overlaid on the timeline
     * At the point of failure, you can inspect the UI hierarchy of the app
-    * [**Fix failures faster with Xcode test reports**](Fix failures faster with Xcode test reports) session
+    * [**Fix failures faster with Xcode test reports**](./Fix%20failures%20faster%20with%20Xcode%20test%20reports.md) session
 
 ### **Debugging**
 
@@ -171,7 +171,7 @@
     * Metadata fields are hidden by default, but you can choose the fields you want to see
     * Can filter on the metadata or on the full text of the log
     * You can jump from a log entry directly back to the line of code that created it (right click, `Jump To Source`)
-    * [**Debug with structured logging**](Debug with structured logging.md) session
+    * [**Debug with structured logging**](./Debug%20with%20structured%20logging.md) session
 
 ![OSLog Metadata Fields](images/new_xcode15/oslog.png)
 
@@ -210,8 +210,8 @@ func login(password: String) -> Error? {
 * Authors can now include a privacy manifest in their framework
     * Details exactly how the framework uses and protects sensitive data
     * Can summarize all of the manifests into a complete privacy report for your app
-* [**Verify app dependencies with digital signatures**](Verify app dependencies with digital signatures.md) session
-* [**Get started with privacy manifests**](Get started with privacy manifests.md) session
+* [**Verify app dependencies with digital signatures**](./Verify%20app%20dependencies%20with%20digital%20signatures.md) session
+* [**Get started with privacy manifests**](./Get%20started%20with%20privacy%20manifests.md) session
 
 ![Signature Verification](images/new_xcode15/signature.png)
 
@@ -219,6 +219,6 @@ func login(password: String) -> Error? {
     * Just select the "TestFlight internal testing" option when distributing your app through App Store Connect
     * Xcode now bundles a set of the most common distribution methods and recommended settings
     * If you're distributing through App Store Connect, you will also now get desktop notifications about your build status
-    * [**Simplify distribution with Xcode and Xcode Cloud**](Simplify distribution with Xcode and Xcode Cloud.md) session
+    * [**Simplify distribution with Xcode and Xcode Cloud**](./Simplify%20distribution%20with%20Xcode%20and%20Xcode%20Cloud.md) session
 
 ![TestFlight Distribution](images/new_xcode15/distribution.png)

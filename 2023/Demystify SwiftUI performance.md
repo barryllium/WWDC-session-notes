@@ -8,7 +8,7 @@
 
 * Cursory understanding of SwiftUI identity, including the difference between implicit and explicit identity
 * Know the distinction between view lifetime and view identity
-* [**2021 Demystify SwiftUI**](../2021/Demystify SwiftUI.md) session
+* [**2021 Demystify SwiftUI**](../2021/Demystify%20SwiftUI.md) session
 
 ### **Dependencies**
 
@@ -142,7 +142,7 @@ struct DogView: View {
     * Fewer updates means better performance when data changes in an app
 * Extract views if needed
 * Explore using `Observable` to help with dependency scoping, as it automatically limits the dependencies to only those that are read
-    * [**Discover Observation in SwiftUI**](Discover Observation in SwiftUI.md) session
+    * [**Discover Observation in SwiftUI**](Discover%20Observation%20in%20SwiftUI.md) session
 
 ### **Faster view updates**
 
@@ -241,7 +241,7 @@ Built-in improvements:
 * Identity helps SwiftUI manage view lifetime, which is crucial for incremental updates to your hierarchy
     * A change to the identity means the view changed
     * This is important for animations and performance
-    * [**Explore SwiftUI animation**](Explore SwiftUI animation.md) session
+    * [**Explore SwiftUI animation**](./Explore%20SwiftUI%20animation.md) session
 * Identification performance is important because identifiers are gathered often, especially for lists and tables
 * The code example below is simple, but it's directly related to identity, and adding a `ForEach` in a `List` is an important time to evaluate performance
     * `ForEach` maps a collection of data onto a resulting sequence of views, producing explicit identity for each of its views

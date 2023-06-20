@@ -171,7 +171,7 @@ let velocity = mySpring.velocity(target: 1, time: time)
 ```
 
 * You can build your own custom animations by calling into the spring model and modifying the inputs/outputs to apply customization to a spring animation
-    * [**Explore SwiftUI animation**](Explore SwiftUI animation.md) session
+    * [**Explore SwiftUI animation**](Explore%20SwiftUI%20animation.md) session
 
 ```swift
 func animate<V: VectorArithmetic>(
