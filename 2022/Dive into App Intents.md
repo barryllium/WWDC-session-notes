@@ -64,7 +64,7 @@ Once an App Intent has been turned into a shortcut, it can be used in many ways 
 You can add support for App Shortcuts with just a little bit of code
 
 * Intent will automatically show up in Spotlight and the Shortcuts app
-* [**Implement App Shortcuts with App Intents**](Implement App Shortcuts with App Intents.md) session
+* [**Implement App Shortcuts with App Intents**](./Implement%20App%20Shortcuts%20with%20App%20Intents.md) session
 
 ```
 public struct LibraryAppShortcuts: AppShortcutsProvider {

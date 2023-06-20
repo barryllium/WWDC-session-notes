@@ -50,7 +50,7 @@ This summer, adding new functionality:
 	*  View diagnostic signatures
 	*  Downlaod detailed logs
 	*  [**Identify trends with Power and Performance API**](https://developer.apple.com/videos/play/wwdc2020/10057/) session from WWDC 2020
-	*  [**Track down hangs with Xcode and on-device detection**](Track down hangs with Xcode and on-device detection.md) session
+	*  [**Track down hangs with Xcode and on-device detection**](./Track%20down%20hangs%20with%20Xcode%20and%20on-device%20detection.md) session
 
 XML feed being decommissioned - fully adopted REST
 

@@ -200,7 +200,7 @@ struct HeartRateBPMView: View {
 
 In iOS 16, we can even incorporate Swift Charts into a cell
 
-* Check out the [**Hello Swift Charts**](Hello Swift Charts.md) session for more info
+* Check out the [**Hello Swift Charts**](./Hello%20Swift%20Charts.md) session for more info
 
 ```
 // Building a custom cell using SwiftUI with UIHostingConfiguration
@@ -323,7 +323,7 @@ Two types of changes we need to handle separately:
 * New in iOS 16
 * Enabled by default for collection and table views
 * Cells automatically resized when their content changes
-* Learn more in the [**What's new in UIKit**](What's new in UIKit.md) session
+* Learn more in the [**What's new in UIKit**](./What's%20new%20in%20UIKit.md) session
 
 **Handling changes to properties of objects**
 

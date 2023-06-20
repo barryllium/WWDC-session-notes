@@ -18,8 +18,8 @@ UIKit adds
 
 For more info on Find and Replace/Edit menu, watch
 
-* [**Adopt desktop class editing interactions**](Adopt desktop-class editing interactions.md) session
-* [**Build a desktop class iPad app**](Build a desktop-class iPad app.md) session
+* [**Adopt desktop class editing interactions**](./Adopt%20desktop-class%20editing%20interactions.md) session
+* [**Build a desktop class iPad app**](./Build%20a%20desktop-class%20iPad%20app.md) session
 
 ---
 

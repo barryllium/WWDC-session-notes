@@ -50,7 +50,7 @@
 	* Faster type checking of generics
 * Runtime improvements
 	* Optimized protocol conformance checking
-* [**Improve app size and runtime performance**](Improve app size and runtime performance.md) session
+* [**Improve app size and runtime performance**](./Improve%20app%20size%20and%20runtime%20performance.md) session
 
 ---
 
@@ -60,7 +60,7 @@
 	* Back deployed to iOS 13
 * Extensions to the model
 	* Data race avoidance
-		* [**Eliminate data races using Swift concurrency**](Eliminate data races using Swift Concurrency.md) session
+		* [**Eliminate data races using Swift concurrency**](./Eliminate%20data%20races%20using%20Swift%20Concurrency.md) session
 
 ![](images/swift/concurrency1.png)
 ![](images/swift/concurrency2.png)
@@ -71,7 +71,7 @@
 		* Makes distributed systems in Swift easier to write
 		* Integrated networking solution
 		* Integrated consensus protocol
-	* [**Meet distributed actors in Swift**](Meet distributed actors in Swift.md) session
+	* [**Meet distributed actors in Swift**](./Meet%20distributed%20actors%20in%20Swift.md) session
 
 ![](images/swift/distributed_actors.png)
 
@@ -79,7 +79,7 @@
 	* Seamless integration with async/await
 	* Home for time-based algorithms using `AsyncSequence`
 	* Support on Apple platforms, Linux, and Windows
-	* [**Meet Swift Async Algorithms**](Meet Swift Async Algorithms.md) session
+	* [**Meet Swift Async Algorithms**](./Meet%20Swift%20Async%20Algorithms.md) session
 * Concurrency optimizations
 	* Actor prioritization
 	* Priority-inversion avoidance
@@ -253,5 +253,5 @@ func addEntries2( entries: any Collection<MailmapEntry>, to mailmap: inout any M
 }
 ```
 		
-* [**Embrace Swift generics**](Embrace Swift generics.md) session
-* [**Design protocol interfaces in Swift**](Design protocol interfaces in Swift.md) session
+* [**Embrace Swift generics**](./Embrace%20Swift%20generics.md) session
+* [**Design protocol interfaces in Swift**](./Design%20protocol%20interfaces%20in%20Swift.md) session

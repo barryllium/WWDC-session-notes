@@ -16,7 +16,7 @@ What a package plugin can do:
 	* Generate source code
 	* Generate resource files
 * Add custom commands to SwiftPM's command line interface or menu items to Xcode
-* [**Meet Swift Package plugins**](Meet Swift Package Plugins.md) session
+* [**Meet Swift Package plugins**](./Meet%20Swift%20Package%20Plugins.md) session
 * [**Creating Swift Packages**](https://developer.apple.com/videos/play/wwdc2019/410/) session from WWDC 2019
 
 ---

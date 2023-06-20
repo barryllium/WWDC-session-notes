@@ -1,6 +1,6 @@
 # [**Design an effective chart**](https://developer.apple.com/videos/play/wwdc2022/110340/)
 
-Check out [**Design app experiences with charts**](Design app experiences with charts.md) session
+Check out [**Design app experiences with charts**](./Design%20app%20experiences%20with%20charts.md) session
 
 An effective chart is:
 
@@ -56,7 +56,7 @@ VoiceOver is a screenreader that lets people read information on their screen th
 	* Customizable accessibility labels for marks
 	* An implementation of Audio Graphs
 * [**Bring accessibility to charts in your app**](https://developer.apple.com/videos/play/wwdc2021/10122/) session from WWDC 21
-* [**Hello Swift Charts**](Hello Swift Charts.md) session
+* [**Hello Swift Charts**](./Hello%20Swift%20Charts.md) session
 
 ---
 

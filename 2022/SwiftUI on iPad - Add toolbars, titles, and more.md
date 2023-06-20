@@ -93,7 +93,7 @@ PlaceDetailContent(place: $place)
 * Can be added later by dragging it into the share link
 * Good for options more useful to specific workflows
 * Share link below is hidden by default
-	* More on share links: [Meet Transferable](Meet Transferable.md) session
+	* More on share links: [Meet Transferable](./Meet%20Transferable.md) session
 
 ```
 PlaceDetailContent(place: $place)

@@ -1,6 +1,6 @@
 # [**Design protocol interfaces in Swift**](https://developer.apple.com/videos/play/wwdc2022/110353/)
 
-This session picks up where the [**Embrace Swift generics**](Embrace Swift generics.md) session leaves off
+This session picks up where the [**Embrace Swift generics**](./Embrace%20Swift%20generics.md) session leaves off
 
 ### **Understand type erasure**
 

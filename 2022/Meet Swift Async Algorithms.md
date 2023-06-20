@@ -5,7 +5,7 @@
 * Just like Sequence
 * Iteration uses Swift Concurrency
 * Iteration can throw
-* Meet AsyncSequence #session from 2021
+* [**Meet AsyncSequence**](https://developer.apple.com/videos/play/wwdc2021/10058/) session from 2021
 
 ---
 
@@ -13,7 +13,7 @@
 
 * open source package
 * augment swift concurrency
-* Swift algorithms package - Meet the Swift Algorithms and Collections packages #session from 2021
+* [**Swift algorithms package - Meet the Swift Algorithms and Collections packages**](https://developer.apple.com/videos/play/wwdc2021/10256/) session from 2021
 
 ---
 

@@ -39,7 +39,7 @@
 	* different based on touch and pointer input
 * Customizable, bridges nicely with Mac Catalyst
 * new `UIEditMenuInteraction` API
-* See the [**Adopt desktop class editing interactions**](Adopt desktop-class editing interactions.md) session
+* See the [**Adopt desktop class editing interactions**](./Adopt%20desktop-class%20editing%20interactions.md) session
 
 **Materials in Sidebar**
 
@@ -49,8 +49,8 @@
 
 Related sessions
 
-* [**Meet desktop class iPad**](Meet desktop-class iPad.md)
-* [**Build a desktop class iPad app**](Build a desktop-class iPad app.md)
+* [**Meet desktop class iPad**](./Meet%20desktop-class%20iPad.md)
+* [**Build a desktop class iPad app**](./Build%20a%20desktop-class%20iPad%20app.md)
 
 ---
 
@@ -185,7 +185,7 @@ sheet.largestUndimmedDetentIdentifier = .small
 
 * System detents
 * Other appearance options
-* Updated sample code in **Customize and resize sheets in UIKit** #session from WWDC 2021
+* Updated sample code in [**Customize and resize sheets in UIKit**](https://developer.apple.com/videos/play/wwdc2021/10063/) session from WWDC 2021
 
 **Symbol images**
 
@@ -213,8 +213,8 @@ UIImage(systemName: "wifi",
 
 * Updated system symbols
 * Support for custom variable symbols
-* [**Adopt variable color in SF Symbols**](Adopt Variable Color in SF Symbols.md) session
-* [**What's new in SF Symbols 4**](What's new in SF Symbols 4.md) session
+* [**Adopt variable color in SF Symbols**](./Adopt%20Variable%20Color%20in%20SF%20Symbols.md) session
+* [**What's new in SF Symbols 4**](./What's%20new%20in%20SF%20Symbols%204.md) session
 
 **Swift Concurrency and Sendable**
 
@@ -246,8 +246,8 @@ class ImageViewer: UIViewController {
 
 More on Swift Concurrency and Sendable
 
-* [**Eliminate data races using Swift Concurrency**](Eliminate data races using Swift Concurrency.md) session
-* [**Visualize and optimize Swift Concurrency**](Visualize and optimize Swift concurrency.md) session
+* [**Eliminate data races using Swift Concurrency**](./Eliminate%20data%20races%20using%20Swift%20Concurrency.md) session
+* [**Visualize and optimize Swift Concurrency**](./Visualize%20and%20optimize%20Swift%20concurrency.md) session
 
 **Stage Manager**
 
@@ -282,7 +282,7 @@ class UICollectionView {
 
 * Build custom cells using SwiftUI
 * Works with UICollectionView and UITableView
-* [**Use SwiftUI with UIKit**](Use SwiftUI with UIKit.md) session
+* [**Use SwiftUI with UIKit**](./Use%20SwiftUI%20with%20UIKit.md) session
 
 ```
 cell.contentConfiguration = UIHostingConfiguration {
@@ -302,3 +302,4 @@ cell.contentConfiguration = UIHostingConfiguration {
 	* Using the customized name now requires getting an entitlement
 * `UIDevice.orientation` not supported
 	* Use `PreferredInterfaceOrientation` instead
+    

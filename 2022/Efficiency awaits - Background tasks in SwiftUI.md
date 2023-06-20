@@ -153,5 +153,5 @@ struct MyApp: App {
 }
 ```
 
-* **Meet Async/await in Swift** #session from WWDC 2021
-* **Discover Concurrency in SwiftUI** #session from WWDC 2021
+* [**Meet Async/await in Swift**](https://developer.apple.com/videos/play/wwdc2021/10132) session from WWDC 2021
+* [**Discover Concurrency in SwiftUI**](https://developer.apple.com/videos/play/wwdc2021/10019/) session from WWDC 2021

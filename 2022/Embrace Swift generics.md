@@ -248,7 +248,7 @@ struct Farm {
 }
 ```
 
-To learn how the other farm protocols were crafted to express the relationship between the animal feed type and its plant, see [**Design protocol interfaces in Swift**](Design protocol interfaces in Swift.md) session
+To learn how the other farm protocols were crafted to express the relationship between the animal feed type and its plant, see [**Design protocol interfaces in Swift**](./Design%20protocol%20interfaces%20in%20Swift.md) session
 
 Let's add a method to feed all animals:
 

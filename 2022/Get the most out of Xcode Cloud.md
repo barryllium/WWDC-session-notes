@@ -4,7 +4,7 @@
 
 * Continuous integration and delivery service
 * Brings together TestFlight, App Store Connect, and Testing in an online service
-* **Meet Xcode Cloud** #session from 2021
+* [**Meet Xcode Cloud**](https://developer.apple.com/videos/play/wwdc2021/10267/) session from 2021
 
 ---
 
@@ -70,7 +70,7 @@ All the devices | Just the recommended set
 **Optimize custom scripts and tests**
 
 * Check out the [**Customize your advanced Xcode Cloud workflows**](https://developer.apple.com/videos/play/wwdc2021/10269/) session from 2021
-* [**Author fast and reliable tests for Xcode Cloud**](Author fast and reliable tests for Xcode Cloud.md) session
+* [**Author fast and reliable tests for Xcode Cloud**](./Author%20fast%20and%20reliable%20tests%20for%20Xcode%20Cloud.md) session
 
 ---
 
@@ -82,4 +82,4 @@ Making the changes above did the following to the original workflow:
 * usage was 4 minutes less
 * Integration builds trended -7% time
 
-For teams, check out the [**Deep Dive into Xcode Cloud for Teams**](Deep dive into Xcode Cloud for teams.md) session
+For teams, check out the [**Deep Dive into Xcode Cloud for Teams**](./Deep%20dive%20into%20Xcode%20Cloud%20for%20teams.md) session

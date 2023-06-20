@@ -207,6 +207,6 @@ struct LocationsDetailsChart: View {
 * Chart can have multiple marks (points and lines, for example)
 * Marks and Properties are extensible
 * You can add custom marks
-* [**Swift Charts: Raise the bar**](Swift Charts - Raise the bar.md) session
+* [**Swift Charts: Raise the bar**](./Swift%20Charts%20-%20Raise%20the%20bar.md) session
 
 ![](images/helloCharts/marks_and_properties.png)

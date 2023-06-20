@@ -11,8 +11,8 @@
 ![](images/swiftUI/party_chart2.png)
 
 * Handle localization, dark mode, and dynamic type automatically
-* [**Hello Swift Charts**](Hello Swift Charts.md) session
-* [**Swift Charts: Raise the bar**](Swift Charts - Raise the bar.md) session
+* [**Hello Swift Charts**](./Hello%20Swift%20Charts.md) session
+* [**Swift Charts: Raise the bar**](./Swift%20Charts%20-%20Raise%20the%20bar.md) session
 
 ---
 
@@ -44,7 +44,7 @@
 	* Advanced deep-linking
 	* State restoration
 	* Migrating from `NavigationView`
-* [The SwiftUI cookbook for navigation](The SwiftUI cookbook for navigation.md) session
+* [The SwiftUI cookbook for navigation](./The%20SwiftUI%20cookbook%20for%20navigation.md) session
 
 **Scenes**
 
@@ -59,10 +59,10 @@
 
 ![](images/swiftUI/half_sheet.png)
 
-* [**What's new in Xcode**](What's new in Xcode.md) session
+* [**What's new in Xcode**](./What's%20new%20in%20Xcode.md) session
 * [**Use Xcode to develop a multiplatform app**](https://developer.apple.com/videos/play/wwdc2022-110371) session
 * Menubar extras (for macOS) can be built entirely in SwiftUI
-* [**Bring multiple windows to your SwiftUI app**](Bring multiple windows to your SwiftUI app.md) session
+* [**Bring multiple windows to your SwiftUI app**](./Bring%20multiple%20windows%20to%20your%20SwiftUI%20app.md) session
 
 ---
 
@@ -113,9 +113,9 @@ what![](images/swiftUI/mixed_state_controls.png)
 
 **More sessions:**
 
-* [**SwiftUI on iPad: Organize your interface**](SwiftUI on iPad - Organize your interface.md)
-* [**SwiftUI on iPad: Add toolbars, and documents, and more**](SwiftUI on iPad - Add toolbars, titles, and more copy.md)
-* [**What's new in iPad app design**](What's new in iPad app design.md)
+* [**SwiftUI on iPad: Organize your interface**](./SwiftUI%20on%20iPad%20-%20Organize%20your%20interface.md)
+* [**SwiftUI on iPad: Add toolbars, and documents, and more**](./SwiftUI%20on%20iPad%20-%20Add%20toolbars%2C%20titles%2C%20and%20more.md)
+* [**What's new in iPad app design**](./What's%20new%20in%20iPad%20app%20design.md)
 * [**SwiftUI on the Mac: Build the fundamentals**](https://developer.apple.com/videos/play/wwdc2021/10062/) from WWDC 2021
 
 ---
@@ -147,7 +147,7 @@ what![](images/swiftUI/mixed_state_controls.png)
 		* More...
 * Can be declared for your own custom types
 ![](images/swiftUI/transferable.png)
-* [**Meet Transferable**](Meet Transferable.md) session
+* [**Meet Transferable**](./Meet%20Transferable.md) session
 
 ---
 
@@ -168,9 +168,5 @@ what![](images/swiftUI/mixed_state_controls.png)
 	* Can be built using `Grid`, `GridRow`, and `.gridCellColumns` you can build a grid
 	![](images/swiftUI/grid.png)
 * `AnyLayout` protocol allows creation of custom, reusable layouts
-	* [**Compose custom layouts with SwiftUI**](Compose custom layouts with SwiftUI.md) session
+	* [**Compose custom layouts with SwiftUI**](./Compose%20custom%20layouts%20with%20SwiftUI.md) session
 	![](images/swiftUI/anylayout.png)
-		
-
-
-

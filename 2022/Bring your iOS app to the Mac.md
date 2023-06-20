@@ -70,8 +70,8 @@ Adding a Mac Catalyst target in project settings:
 
 **Desktop class iPad**
 
-* [**Meet desktop class iPad**](Meet desktop-class iPad.md) session
-* [**Build a desktop class iPad app**](Build a desktop-class iPad app.md) session
+* [**Meet desktop class iPad**](./Meet%20desktop-class%20iPad.md) session
+* [**Build a desktop class iPad app**](./Build%20a%20desktop-class%20iPad%20app.md) session
 * Controls and navigation move from UINavigationBar into the NSToolbar
 	* If you don't already create a toolbar, we give you one automatically
 	* If you already manage your own NSToolbar in Catalyst, nothing changes

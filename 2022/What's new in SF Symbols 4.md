@@ -50,4 +50,4 @@
 ![](images/sfsymbols/layers.png)
 * For variable color layers, define each layer in sequence, do not group them
 ![](images/sfsymbols/variable_layers.png)
-* [**Adopt Variable Color in SF Symbols**](Adopt Variable Color in SF Symbols.md) session
+* [**Adopt Variable Color in SF Symbols**](./Adopt%20Variable%20Color%20in%20SF%20Symbols.md) session

@@ -33,7 +33,7 @@ Label creation process
 * Minimize data collection
 * Use on-device processing where possible
 * Storing data not linked to identity
-* [**What's new in privacy**](What's new in privacy.md) session
+* [**What's new in privacy**](./What's%20new%20in%20privacy.md) session
 
 To set your privacy information, use App Store Connect
 

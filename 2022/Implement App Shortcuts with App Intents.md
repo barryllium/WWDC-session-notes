@@ -311,5 +311,5 @@ Siri Tip | Shortcuts Link
 
 Other sessions:
 
-* [**Design app Shortcuts**]()
-* [**Dive into App Intents**]()
+* [**Design app Shortcuts**](./Design%20App%20Shortcuts.md)
+* [**Dive into App Intents**](./Dive%20into%20App%20Intents.md)

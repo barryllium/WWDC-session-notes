@@ -305,7 +305,7 @@ struct WeatherTestView: View {
 
 `ViewThatFits` will help when translations are too large to keep in the same layout
 
-* [**Compose custom layouts with SwiftUI**](Compose custom layouts with SwiftUI.md) session
+* [**Compose custom layouts with SwiftUI**](./Compose%20custom%20layouts%20with%20SwiftUI.md) session
 
 ![](images/localization/viewthatfits.png)
 

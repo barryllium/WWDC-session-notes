@@ -671,5 +671,5 @@ func date(year: Int, month: Int, day: Int = 1) -> Date {
 
 Other sessions to check out:
 
-* [Design App Experiences with Charts](Design app experiences with charts.md)
-* [Design an Effective Chart](Design an effective chart.md)
+* [Design App Experiences with Charts](./Design%20app%20experiences%20with%20charts.md)
+* [Design an Effective Chart](./Design%20an%20effective%20chart.md)

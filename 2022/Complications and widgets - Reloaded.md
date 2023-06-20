@@ -282,7 +282,7 @@ Now to add `.accessoryInline`
 * Note that inline accessories are drawn according to system-defined coloring and font
 * At first, our text is too long for the watch slot, so we can use ViewThatFits to resolve this
 	* Will choose the first content view that fits the available space w/o truncation or clipping
-	* Refer to [Compose custom layouts with SwiftUI](Compose custom layouts with SwiftUI.md) session for more on this
+	* Refer to [Compose custom layouts with SwiftUI](./Compose%20custom%20layouts%20with%20SwiftUI.md) session for more on this
 
 ```
 ViewThatFits {

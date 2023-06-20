@@ -75,6 +75,6 @@ When planning multiple charts
 
 ![](images/designcharts/three_charts.png)
 
-* [**Design an effective chart**](Design an effective chart.md) session
-* [**Hello Swift Charts**](Hello Swift Charts.md) session
+* [**Design an effective chart**](./Design%20an%20effective%20chart.md) session
+* [**Hello Swift Charts**](./Hello%20Swift%20Charts.md) session
 

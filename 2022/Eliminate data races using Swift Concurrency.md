@@ -347,7 +347,7 @@ class ChickenValley: Sendable {
 * Views and View controllers should be on the main actor
 * Other program logic should be separated from that main actor, using other actors to safely model shared state and tasks to describe independent work
 * Tasks can shuttle between the main actor and other actors as necessary
-* Tools to help can be seen in the [**Visualize and Optimize Swift Concurrency**](Visualize and optimize Swift concurrency.md) session
+* Tools to help can be seen in the [**Visualize and Optimize Swift Concurrency**](./Visualize%20and%20optimize%20Swift%20concurrency.md) session
 
 ---
 

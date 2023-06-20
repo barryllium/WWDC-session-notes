@@ -293,4 +293,4 @@ func textView(_ textView: UITextView,
 
 ![](images/desktopipad/custom_actions.png)
 
-For more info on Editing interactions, check out the [**Adopt desktop class editing interactions**](Adopt desktop-class editing interactions.md) session
+For more info on Editing interactions, check out the [**Adopt desktop class editing interactions**](./Adopt%20desktop-class%20editing%20interactions.md) session

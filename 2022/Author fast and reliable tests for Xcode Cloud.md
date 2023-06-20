@@ -2,7 +2,7 @@
 
 ### **Authoring reliable tests**
 
-**Meet Xcode Cloud** #session from WWDC 2021 for basic Xcode Cloud information
+[**Meet Xcode Cloud**](https://developer.apple.com/videos/play/wwdc2021/10267/) session from WWDC 2021 for basic Xcode Cloud information
 
 **Implement `setup()` and `tearDown`**
 

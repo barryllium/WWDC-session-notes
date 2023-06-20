@@ -4,7 +4,7 @@ Two new ways of string processing:
 
 * `Regex` type, e.g. `/Hi, WWDC\d{2}!/`
 * RegexBuilder result builder API (see below)
-* Check out the [**Meet Swift Regex**](Meet Swift Regex.md) session
+* Check out the [**Meet Swift Regex**](./Meet%20Swift%20Regex.md) session
 
 ```
 Regex {

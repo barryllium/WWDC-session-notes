@@ -113,4 +113,4 @@ iPhone | iPad | Pop-up button
 
 ![](images/ipadappdesign/table.png)
 
-Check out **Designed for iPad** #session from WWDC 2020
+Check out [**Designed for iPad**](https://developer.apple.com/videos/play/wwdc2020/10206/) session from WWDC 2020

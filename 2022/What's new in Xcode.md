@@ -42,13 +42,13 @@ Build performance improvements
 New **Build Timeline** for any build log or result bundle to view any long build times and bottlenecks
 
 * [**Demystify parallelization in Xcode builds**](https://developer.apple.com/videos/play/wwdc2022-110364) session
-* [**Link fast: Improve build and launch**](Link fast - Improve build and launch times.md) session
+* [**Link fast: Improve build and launch**](./Link%20fast%20-%20Improve%20build%20and%20launch%20times.md) session
 
 ![](images/xcode/build_timeline.png)
 
 30% faster testing using same build improvements
 
-* [**Author fast and reliable tests for Xcode Cloud**](Author fast and reliable tests for Xcode Cloud.md) session
+* [**Author fast and reliable tests for Xcode Cloud**](./Author%20fast%20and%20reliable%20tests%20for%20Xcode%20Cloud.md) session
 
 Interface builder performance improvements
 
@@ -65,12 +65,12 @@ Memory Debugger now shows all reference paths into and out of an object
 Can extend Xcode with Swift Package plugins
 
 * run linters
-* [**Meet Swift Package plugins**](Meet Swift Package Plugins.md) session
-* [**Create Swift Package plugins**](Create Swift Package plugins.md) session
+* [**Meet Swift Package plugins**](./Meet%20Swift%20Package%20Plugins.md) session
+* [**Create Swift Package plugins**](./Create%20Swift%20Package%20plugins.md) session
 
 Can localize package resources just like applications
 
-* [**Building global apps: localization by example**](Build global apps - Localization by example.md) session
+* [**Building global apps: localization by example**](./Build%20global%20apps%20-%20Localization%20by%20example.md) session
 
 Updated run destination chooser
 
@@ -88,7 +88,7 @@ Organizer
 * Hangs report shows highest impact hangs from App Store users
 	* ordered by severity
 	* shows backtrace, and specific device occurences
-	* [**Track down hangs with Xcode and on-device detection**](Track down hangs with Xcode and on-device detection.md) session
+	* [**Track down hangs with Xcode and on-device detection**](./Track%20down%20hangs%20with%20Xcode%20and%20on-device%20detection.md) session
 
 App Icon
 

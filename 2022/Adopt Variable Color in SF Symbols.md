@@ -2,8 +2,8 @@
 
 Prequels:
 
-* **Explore the SF Symbols 3 app** #session from WWDC 2021
-* [**What's new in SF Symbols 4**](What's new in SF Symbols 4.md) session
+* [**Explore the SF Symbols 3 app**](https://developer.apple.com/videos/play/wwdc2021/10288/) session from WWDC 2021
+* [**What's new in SF Symbols 4**](./What's%20new%20in%20SF%20Symbols%204.md) session
 
 ### **Variable Color overview**
 

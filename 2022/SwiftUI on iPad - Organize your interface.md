@@ -154,7 +154,7 @@ Navigation Split Views
 * Supported on iOS, iPadOS, and macOS
 * Two- or three-column layouts
 * Multiple styles
-* [The SwiftUI cookbook for navigation](The SwiftUI cookbook for navigation.md) session
+* [The SwiftUI cookbook for navigation](./The%20SwiftUI%20cookbook%20for%20navigation.md) session
 
 Two-column Split Views
 

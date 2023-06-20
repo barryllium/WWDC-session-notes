@@ -352,7 +352,7 @@ await withCheckedContinuation { continuation in
 }
 ```
 
-* [**Eliminate data races using swift Concurrency**](Eliminate data races using Swift Concurrency.md) session
+* [**Eliminate data races using swift Concurrency**](./Eliminate%20data%20races%20using%20Swift%20Concurrency.md) session
 * [**Swift Concurrency: Behind the scenes**](https://developer.apple.com/videos/play/wwdc2021/10254/) session from WWDC 2021
 
 

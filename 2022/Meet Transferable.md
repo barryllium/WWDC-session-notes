@@ -77,7 +77,6 @@ var body: some View {
 	Profile()
 		.toolbar {
 			ShareLink(item: portrait)
-		}
 	}
 }
 ```

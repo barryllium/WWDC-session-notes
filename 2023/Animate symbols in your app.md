@@ -8,7 +8,7 @@ New, universal animations that can be applied ot any symbol image, even custom s
 
 ![Animations](images/animate_symbols/animations.png)
 
-[**What's new in SF Symbols 5**](What's new in SF Symbols 5.md) session
+[**What's new in SF Symbols 5**](./What's%20new%20in%20SF%20Symbols%205.md) session
 
 * Animations are called "symbol effects"
     * New symbols framework available in SwiftUI, AppKit, or UIKit

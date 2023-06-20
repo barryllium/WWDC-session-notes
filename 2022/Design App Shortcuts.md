@@ -124,7 +124,7 @@ There are two ways to show results in iOS 16
 * Be clear what type of information your app is expecting
 * The App Intent framework does provide a set of common options for these open-ended requests, such as numerical values, dates, or time values
 	* Allow you to benefit from certain built-in dialog and visual patterns, as well as Siri's natural language understanding as it pertains to these types of information
-* [**Dive into App Intents**](Dive into App Intents.md) session
+* [**Dive into App Intents**](./Dive%20into%20App%20Intents.md) session
 
 ![](images/designshortcuts/open_ended.png)
 
