@@ -7,6 +7,7 @@
         "keyframes",
         "Sonoma",
         "struct",
-        "structs"
+        "structs",
+        "subqueries"
     ]
 }
