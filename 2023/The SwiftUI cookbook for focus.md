@@ -1,4 +1,4 @@
-Coming Soon# [**The SwiftUI cookbook for focus**](https://developer.apple.com/videos/play/wwdc2023/10162/)
+[**The SwiftUI cookbook for focus**](https://developer.apple.com/videos/play/wwdc2023/10162/)
 
 ---
 
