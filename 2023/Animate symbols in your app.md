@@ -119,7 +119,7 @@ let imageView: NSImageView = ...
 imageView.addSymbolEffect(.bounce, options: .repeat(2))
 ```
 
-#### Content tranistion effects
+#### Content transition effects
 
 * The Replace effect, which animates between two different symbol images, is the main example of this
 * SwiftUI has a new `contentTransition` type called `symbolEffect`, which can be used with Replace
