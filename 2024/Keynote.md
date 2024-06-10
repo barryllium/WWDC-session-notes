@@ -78,7 +78,7 @@
 
 ### **Audio/Home**
 
-![iOS features](images/keynote/WWDC24-Audio-and-Home.jpg)
+![Audio and Home features](images/keynote/WWDC24-Audio-and-Home.jpg)
 
 * AirPods
     * Can nod your head yes or no to respond to Siri
@@ -99,7 +99,7 @@
 
 ### **watchOS**
 
-![iOS features](images/keynote/WWDC24-watchOS-11.jpg)
+![watchOS features](images/keynote/WWDC24-watchOS-11.jpg)
 
 * Activity
     * New training mode
@@ -122,7 +122,7 @@
 
 ### **iPadOS**
 
-![iOS features](images/keynote/WWDC24-iPadOS-18.jpeg)
+![iPadOS features](images/keynote/WWDC24-iPadOS-18.jpeg)
 
 * Same updates as iOS with customizable home screen and control center updates
 * New floating tab bar (similar to top of tv app)
@@ -149,7 +149,7 @@
 
 ### **macOS**
 
-![iOS features](images/keynote/WWDC24-macOS-Sequoia.jpeg)
+![macOS features](images/keynote/WWDC24-macOS-Sequoia.jpg)
 
 * macOS Sequoia
 * Gets Math Notes feature
