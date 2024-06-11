@@ -15,7 +15,7 @@
     * Select a base region - choose one region to automatically generate prices across other regions and currencies
     * Manage international pricing - allows the App Store to adjust your prices as currencies or taxes change or manage them manually on your own
     * Set the availability of in-app purchases and subscriptions by region
-* [**Meet StoreKit for SwiftUI**](./Meet%20StoreKit%20for%20SwiftUI.md) session
+* [**Meet StoreKit for SwiftUI**](https://developer.apple.com/videos/play/wwdc2023/10013/) session
 * [**What's new in App Store pricing**](https://developer.apple.com/videos/play/wwdc2023/10014/) session
 
 ### **Manage testers**
@@ -40,7 +40,7 @@
     * Renewal Rate - modify rate of a subscription
     * Test interrupted purchases
     * Clear purchase history
-* [**Simplify distribution with Xcode and Xcode Cloud**](./Simplify%20distribution%20with%20Xcode%20and%20Xcode%20Cloud.md) session
+* [**Simplify distribution with Xcode and Xcode Cloud**](https://developer.apple.com/videos/play/wwdc2023/10224/) session
 * [**Explore testing in-app purchases**](https://developer.apple.com/videos/play/wwdc2023/10142/) session
 
 ### **Build your store presence**
@@ -52,7 +52,7 @@
 * Tests will continue to run until you choose to stop them, and won't be affected by new versions
     * Can view and monitor a currently running test while pushing updates to your app as needed
 * [**Explore App Store Connect for spatial computing**](https://developer.apple.com/videos/play/wwdc2023/10012/) session
-* [**What's new in privacy**](./What's%20new%20in%20privacy.md) session
+* [**What's new in privacy**](https://developer.apple.com/videos/play/wwdc2023/10053) session
 * [**What's new in App pre-order**](https://developer.apple.com/videos/play/wwdc2023/10015/) session
 
 ### **Automate with APIs**

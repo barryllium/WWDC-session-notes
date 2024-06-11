@@ -248,4 +248,4 @@ struct ContentView: View  {
 * No need for `@Published`
 * SwiftUI automatically refreshes
 
-Learn more in the * [**Build an app with SwiftData**](./Build%20an%20app%20with%20SwiftData.md) session
+Learn more in the [**Build an app with SwiftData**](./Build%20an%20app%20with%20SwiftData.md) session

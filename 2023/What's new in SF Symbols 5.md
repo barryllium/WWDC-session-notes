@@ -2,7 +2,7 @@
 
 ---
 
-* Check out [last years talk](../2022/What's new in SF Symbols 4.md)
+* Check out [last years talk](../2022/What's%20new%20in%20SF%20Symbols%204.md)
 
 * Initially, SF Symbols just had monochrome symbols
 * Hierarchical, Palette, and Multi-color added in 2021

@@ -98,7 +98,7 @@
 * New workflows added for building time-based widgets
     * The canvas has a new area that shows all of the entries
     * As you navigate through them, you can see how the widget's transitions animate
-    * [**Build programmatic UI with Xcode Previews**](./Build%20programmatic%20UI%20with%20Xcode%20Previews.md) session
+    * [**Build programmatic UI with Xcode Previews**](https://developer.apple.com/videos/play/wwdc2023/10252/) session
 
 ![Time Based Widget Previews](images/new_xcode15/widget_preview.png)
 
@@ -210,7 +210,7 @@ func login(password: String) -> Error? {
 * Authors can now include a privacy manifest in their framework
     * Details exactly how the framework uses and protects sensitive data
     * Can summarize all of the manifests into a complete privacy report for your app
-* [**Verify app dependencies with digital signatures**](./Verify%20app%20dependencies%20with%20digital%20signatures.md) session
+* [**Verify app dependencies with digital signatures**](https://developer.apple.com/videos/play/wwdc2023/10061/) session
 * [**Get started with privacy manifests**](./Get%20started%20with%20privacy%20manifests.md) session
 
 ![Signature Verification](images/new_xcode15/signature.png)
@@ -219,6 +219,6 @@ func login(password: String) -> Error? {
     * Just select the "TestFlight internal testing" option when distributing your app through App Store Connect
     * Xcode now bundles a set of the most common distribution methods and recommended settings
     * If you're distributing through App Store Connect, you will also now get desktop notifications about your build status
-    * [**Simplify distribution with Xcode and Xcode Cloud**](./Simplify%20distribution%20with%20Xcode%20and%20Xcode%20Cloud.md) session
+    * [**Simplify distribution with Xcode and Xcode Cloud**](https://developer.apple.com/videos/play/wwdc2023/10224/) session
 
 ![TestFlight Distribution](images/new_xcode15/distribution.png)
