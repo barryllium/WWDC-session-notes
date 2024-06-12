@@ -520,7 +520,7 @@ var body: some View {
     * `.handGestureShortcut()` modifier added for double-tap support
 
 | Live Activities | Double Tap |
-| --------------- | ---------------------- |
+| --------------- | ---------- |
 | ![Live Activities](images/new_swiftui/live_activities.png) | ![Double Tap](images/new_swiftui/double_tap.png) |
 
 * `Text(.currentDate, format: .reference(to: nextDate))` useful for showing relative dates

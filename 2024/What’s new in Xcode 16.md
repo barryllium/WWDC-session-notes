@@ -1,4 +1,4 @@
-# [**What's new in Xcode 16**](https://developer.apple.com/videos/play/wwdc2024/101/)
+# [**What's new in Xcode 16**](https://developer.apple.com/videos/play/wwdc2024-10135)
 
 ---
 

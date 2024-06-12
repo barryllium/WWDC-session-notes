@@ -3,6 +3,7 @@
         "affordance",
         "animatable",
         "bezier",
+        "borderless",
         "conformances",
         "deinit",
         "diffable",
