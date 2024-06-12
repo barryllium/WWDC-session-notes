@@ -11,7 +11,7 @@
     * Omitted features like persistent data storage
     * Open to third party verification and part of the bug bounty program
 
-| Expressive code | Codable implementation |
+| Server Stack |  |
 | --------------- | ---------------------- |
 | ![Server Stack](images/union/stack1.png) | ![Server Stack](images/union/stack2.png) |
 
