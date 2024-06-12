@@ -19,7 +19,7 @@
 * New professional video workflow available in the fall
 * Apple Immersive Video
     * Partnered with Blackmagicdesign to build a new production workflow to create these
-    * Availalbe later this year
+    * Available later this year
 * Coming to 8 new countries this summer
 
 ### **iOS**
@@ -179,7 +179,7 @@
         * Puts video in its own window with easily accessible controls
 * Gaming
     * Game Porting Toolkit 2
-        * Improved Windows compatiblity and shader debugging
+        * Improved Windows compatibility and shader debugging
         * Easier to bring mac games to iPhone/iPad
 
 ### **Apple Intelligence**
@@ -235,7 +235,7 @@
     * Rewrite
         * Gives you different versions of what you've written so you can choose what you prefer
         * Suggestions shown inline
-        * Can change the tone of text to make it more friendly, professionaly, or concise
+        * Can change the tone of text to make it more friendly, professionally, or concise
         * Can even rewrite as poetry
     * Proofread
         * Helps with grammar, word choice, and sentence structure
@@ -277,7 +277,7 @@
     * Chat CPT 4o support built into Siri
         * Prompts you to share your query with ChatGPT when Siri determines they might have info
         * Can also share a photo with a question
-    * Integrated into system-wide writign tools with Compose
+    * Integrated into system-wide writing tools with Compose
         * Can also be used for image generation
     * Requests and info will not be logged
     * Can be used for free, or an account can be used for paid features

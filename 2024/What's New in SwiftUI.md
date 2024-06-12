@@ -1,4 +1,4 @@
-# [**Keynote**](https://developer.apple.com/videos/play/wwdc2024-10144)
+# [**What's New in SwiftUI**](https://developer.apple.com/videos/play/wwdc2024-10144)
 
 ---
 
@@ -410,7 +410,7 @@ Text(currentLyric)
 ```
 
 * New scene types like utility window
-* [**Tailor macOS windows with SwiftUI**](./) session
+* [**Tailor macOS windows with SwiftUI**](https://developer.apple.com/videos/play/wwdc2024-10148) session
 * New `.pushWindow` environment action
     * Used to open a window and hide the originating window
     * [**Work with windows in SwiftUI**](https://developer.apple.com/videos/play/wwdc2024-10149) session
@@ -434,7 +434,7 @@ struct EditorView: View {
     * Coordinate multiple effects
     * Control timing of an effect
     * Responding to accessibility settings
-    * [**Create custom hover effects in visionOS**](./) session
+    * [**Create custom hover effects in visionOS**](https://developer.apple.com/videos/play/wwdc2024-10152) session
 
 ```swift
 struct ProfileButtonStyle: ButtonStyle {

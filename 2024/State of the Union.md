@@ -209,7 +209,7 @@ NavigationStack {
     * Still trying to make fetch happen
     * Game Porting Toolkit 2
         * Brings more advanced games to Mac
-            * Improved compatability with other technology
+            * Improved compatibility with other technology
             * Better raytracing
             * Metal updates
             * Xcode allows debugging and profiling of original shaders (either with Windows binary or ported project)
@@ -221,7 +221,7 @@ NavigationStack {
     * Can choose on a fixed or dynamic scale when moved in relation to the user
     * More freedom when placing ornaments in a volume
 * TableTopKit
-    * Framework for collaborative expriences around a flat horizontal surface
+    * Framework for collaborative experiences around a flat horizontal surface
     * Works with spatial personas in SharePlay
     * Works with Group Activities, RealityKit, and SwiftUI
 * New Enterprise APIs
