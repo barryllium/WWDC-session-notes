@@ -245,7 +245,7 @@ catch {
 
 * Swift 6 introduces typed throes to overcome this
     * Allows specification of the error type along with the `throws` keyword
-    * No type erasure involved and the error appears in teh catch block with its concrete type
+    * No type erasure involved and the error appears in the catch block with its concrete type
 
 ```swift
 enum IntegerParseError: Error {

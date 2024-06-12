@@ -541,7 +541,7 @@ struct Person
 
 * In all the above examples, the macro declaration has left out the implementation
     * Always after an `=`, and it's always another macro
-        * Sometimes another macro you've written, just with teh parameters rearranged or with extra parameters specified as literals
+        * Sometimes another macro you've written, just with the parameters rearranged or with extra parameters specified as literals
         * Usually an external macro - one that's implemented by a compiler plug-in
             * `#externalMacro` is what defines that relationship
             * Specifies the plug-in the compiler should launch and the name of a type inside that plug-in

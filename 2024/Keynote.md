@@ -36,7 +36,7 @@
     * New controls gallery
     * Controls API for developers
         * Also available on the lock screen
-        * Can invoke with teh action button
+        * Can invoke with the action button
 * Privacy
     * Can now lock apps with Face ID/Touch ID/Password
     * Can hide apps that appear in a hidden apps folder that is locked
