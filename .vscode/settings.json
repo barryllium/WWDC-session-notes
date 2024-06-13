@@ -13,6 +13,7 @@
         "keyframes",
         "leaderboards",
         "Noncopyable",
+        "nonisolated",
         "raytracing",
         "Siri",
         "Sonoma",
