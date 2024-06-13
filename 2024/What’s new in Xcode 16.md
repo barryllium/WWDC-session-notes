@@ -11,7 +11,7 @@
     * New language mode that provides concurrency guarantees
         * Can turn on upcoming language features in the `Swift Compiler - Upcoming Features` section in Build Settings
     * Allows you to catch future errors as warnings now before they are marked as errors in the Swift 6
-    * [**Migrate your app to Swift 6**](./) session
+    * [**Migrate your app to Swift 6**](./Migrate%20your%20app%20to%20Swift%206.md) session
 
 ![Upcoming Features](images/new_xcode/upcoming_features.png)
 

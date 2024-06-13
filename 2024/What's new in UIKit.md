@@ -17,7 +17,7 @@
     * Existing sidebar apps can adopt new UITabBarController APIs to get a combined tab and sidebar experience
     * When minimized, the tab bar animates back into the tab bar
     * Include customization features to allow allow personalization the sidebar tab bar through drag and drop
-    * [**Elevate your tab and sidebar experience in iPadOS**](./) session
+    * [**Elevate your tab and sidebar experience in iPadOS**](./Elevate%20your%20tab%20and%20sidebar%20experience%20in%20iPadOS.md) session
 
 #### Fluid transitions
 

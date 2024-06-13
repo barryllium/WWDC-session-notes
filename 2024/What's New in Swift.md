@@ -367,4 +367,4 @@ final class LockingResourceManager: Sendable {
 }
 ```
 
-* [**Migrate your app to Swift 6**](./) session
+* [**Migrate your app to Swift 6**](./Migrate%20your%20app%20to%20Swift%206.md) session

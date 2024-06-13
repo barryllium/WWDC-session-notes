@@ -11,7 +11,7 @@
     * The tab bar floats above the content
     * Users can reorder the items and hide infrequently used options
     * `.tabViewStyle(.sidebarAdaptable)` allows switching between sidebar and tab bar
-    * [**Elevate your tab and sidebar experience in iPadOS**](./) session
+    * [**Elevate your tab and sidebar experience in iPadOS**](./Elevate%20your%20tab%20and%20sidebar%20experience%20in%20iPadOS.md) session
 
 ```swift
 import SwiftUI
@@ -771,7 +771,7 @@ struct ContentView: View {
 #### Swift 6 language mode support
 
 * View protocol is now marked with `@MainActor`, no need to explicitly mark Views this way anymore
-* [**Migrate your app to Swift 6**](./) session
+* [**Migrate your app to Swift 6**](./Migrate%20your%20app%20to%20Swift%206.md) session
 
 #### Improved interoperability
 
