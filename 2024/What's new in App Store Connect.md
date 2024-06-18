@@ -55,7 +55,7 @@
 #### Custom product pages in Apple Search Ads
 
 * Appear in Apple Search Ads account when an ad is created
-    * Select the Custom Product Page with teh deep link you want to use for Search Results or Today tab ad
+    * Select the Custom Product Page with the deep link you want to use for Search Results or Today tab ad
     * Shows preview on the right, with deep link for reference below
 
 #### Promote your app
