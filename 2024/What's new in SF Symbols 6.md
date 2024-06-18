@@ -24,7 +24,7 @@
     * Smoothly increases and decreases the presence of a symbol
     * Similar to Pulse animation
         * Pulse conveys ongoing activity by changing its opacity
-        * Breath animates opacity *and* size
+        * Breathe animates opacity *and* size
 * Replace
     * A preset where a symbol is swapped with another
     * Magic Replace added this year
@@ -62,10 +62,3 @@
 * Progress indicators, haptics, home and widget relate symbols
 * Over 800 new symbols
 * Beta app found at [**developer.apple.com/sf-symbols**](https://developer.apple.com/sf-symbols)
-
-
-
-
-
-![](images/sf_symbols/.png)
-
