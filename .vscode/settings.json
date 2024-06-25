@@ -16,6 +16,7 @@
         "Noncopyable",
         "nonisolated",
         "raytracing",
+        "representables",
         "Siri",
         "Sonoma",
         "struct",
