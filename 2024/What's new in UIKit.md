@@ -216,7 +216,7 @@ updateLink.isEnabled = true
     * Updated SF Symbols app
     * Variable color looping annotations
     * Continuous bounce effects
-    * [**What's new in SF Symbols 6**](./) session
+    * [**What's new in SF Symbols 6**](./What's%20new%20in%20SF%20Symbols%206.md) session
     * [**Animate symbols in your app**](../2023/Animate%20symbols%20in%20your%20app.md) session from WWDC 2023
 
 #### Sensory feedback

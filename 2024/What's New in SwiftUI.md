@@ -117,7 +117,7 @@ struct Party {
 
 * New Zoom navigation transition
     * Uses `.matchedTransitionSource()`
-    * [**Enhance your UI animations and transitions**](./) session
+    * [**Enhance your UI animations and transitions**](./Enhance%20your%20UI%20animations%20and%20transitions.md) session
 
 ```swift
 import SwiftUI
@@ -376,7 +376,7 @@ DocumentGroupLaunchScene("Your Lyrics") {
     * Three new animation presets
         * `.wiggle`, `.breathe`, and `.rotate`
     * `.replace` animation prefers a new "magic replace` behavior
-    * [**What's new in SF Symbols**](./) session
+    * [**What's new in SF Symbols 6**](./What's%20new%20in%20SF%20Symbols%206.md) session
 
 ### **Harnessing the platform**
 
@@ -545,7 +545,7 @@ var body: some View {
     * Can mix static and dynamic content
     * Supports sections
     * Can add container specific modifiers
-    * [**Demystify SwiftUI containers**](./) session
+    * [**Demystify SwiftUI containers**](./Demystify%20SwfitUI%20containers.md) session
 
 ```swift
 struct DisplayBoard<Content: View>: View {
@@ -604,7 +604,7 @@ extension ContainerValues {
 
 * Can attach additional information to SwiftUI accessibility labels
     * Can add additional accessibility info without overriding the framework provided label
-    * [**Catchup on accessibility in SwiftUI**](./) session
+    * [**Catchup on accessibility in SwiftUI**](./Catch%20up%20on%20accessibility%20in%20SwiftUI.md) session
 
 ```swift
 SongView(song)
@@ -821,7 +821,7 @@ NSAnimationContext.animate(animation) {
 
 * `UIViewRepresentable` and `NSViewRepresentable` context provide new API for bridging animations started in SwiftUI into UIKit/AppKit
     * Ensures animations run in sync
-    * [**Enhance your UI animations and transitions**](./) session
+    * [**Enhance your UI animations and transitions**](./Enhance%20your%20UI%20animations%20and%20transitions.md) session
 
 ```swift
 struct BeadBoxWrapper: UIViewRepresentable {
