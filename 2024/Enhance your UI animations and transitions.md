@@ -62,7 +62,7 @@ func showEditor(for bracelet: Bracelet) {
         * On cancel, the animation runs to completion, then moves straight to the `Appearing` state and finally the `Appeared` state in one turn of the run loop
     * Cancelled push
         * Moves into `Appearing` state
-        * When the user cancels the push (either with teh back button or a back swipe), the transition is not cancelled
+        * When the user cancels the push (either with the back button or a back swipe), the transition is not cancelled
         * Instead it completes immediately and goes into the `Appeared` state, then in the same turn of the run loop, the pop transition starts
             * Enters the `Disappearing` state in a normal pop transition that can be completed or cancelled
 
@@ -95,8 +95,8 @@ UIView.animate(.spring(duration: 0.5)) {
 
 ### **Animating representables**
 
-* Use the `.animate { ... }` method on teh context
-    * Allows application of any animation on the Transaction associated with the update, to any UIView changes made in teh `updateUIView` method
+* Use the `.animate { ... }` method on the context
+    * Allows application of any animation on the Transaction associated with the update, to any UIView changes made in the `updateUIView` method
     * Runs animation across SwiftUI View and UIViews in sync
 
 ```swift

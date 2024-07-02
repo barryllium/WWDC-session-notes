@@ -92,7 +92,7 @@ func rating(videoId: Int, videoName: String, expectedRating: String) {
         * Improved reliability of builds
         * Faster debugger start-up as the debugger can share binary modules with the build
         * Can be enabled in Xcode build settings under `Explicitly Built Modules`
-        * [**Demystify explicitly built modules**](./) session
+        * [**Demystify explicitly built modules**](./Demystify%20explicitly%20built%20modules.md) session
 * Swift project moving to a new github location at [github.com/swiftlang](https://github.com/swiftlang)
 
 ### **Language updates**

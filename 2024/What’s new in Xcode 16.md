@@ -64,7 +64,7 @@ extension PreviewTrait where T == Preview.ViewTraits {
     * Can queue up a build without waiting for package resolution first
     * Xcode splits pu the processing of each compilation unit into three phases: scanning, building modules, and building the original code
     * Reflected in the build timeline
-    * [**Demystify explicitly built modules**](./) session
+    * [**Demystify explicitly built modules**](./Demystify%20explicitly%20built%20modules.md) session
 
 ### **Debug**
 
