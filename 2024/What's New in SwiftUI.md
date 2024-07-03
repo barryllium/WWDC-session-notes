@@ -914,7 +914,7 @@ struct LoungeView: View {
 #### Custom Text and Interactive Behaviors
 
 * Can set custom effects on individual words within Text
-    * [**Create custom visual effects with SwiftUI**](./) session
+    * [**Create custom visual effects with SwiftUI**](./Create%20custom%20visual%20effects%20with%20SwiftUI.md) session
 
 ```swift
 struct KaraokeRenderer: TextRenderer {
