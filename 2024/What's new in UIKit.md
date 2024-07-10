@@ -32,7 +32,7 @@
 * Can use SwiftUI animation types to animate UIKit views
     * Includes CustomAnimations
     * Can build gesture-driven animations using the SwiftUI spring animation
-    * [**Enhance your UI animations and transitions**](./) session
+    * [**Enhance your UI animations and transitions**](./Enhance%20your%20UI%20animations%20and%20transitions.md) session
 
 ![Animations](images/new_uikit/animations.png)
 
