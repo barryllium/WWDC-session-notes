@@ -209,7 +209,7 @@ struct StartPartyIntent: AppIntent {
 * Charts
     * Function plotting
     * Vectorized plots
-    * [**Swift Charts: Vectorized and function plots**](./) session
+    * [**Swift Charts: Vectorized and function plots**](./Swift%20Charts%20-%20Vectorized%20and%20function%20plots.md) session
 
 ```swift
 import SwiftUI
