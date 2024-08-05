@@ -168,7 +168,7 @@ func format(_ disk: inout FloppyDisk) {
     * We can add a `deinit` that triggers an action if the struct is destroyed instead of being run
         * `discard self` will destroy the struct without calling `deinit`
     * In our `schedule` function, we have to add `consuming` ownership, since it will be the last use of the transfer
-        * Without the `return` in teh first `if` block, the Swift compiler would throw an error saying that `'transfer' is consumed more than once`
+        * Without the `return` in the first `if` block, the Swift compiler would throw an error saying that `'transfer' is consumed more than once`
     * Because `schedule` is the last owner of the transfer, we don't have to worry about what happens if `Task.sleep` throws, and that will cancel the transfer
 
 ```swift

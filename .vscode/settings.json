@@ -16,6 +16,7 @@
         "keyframes",
         "leaderboards",
         "malloc",
+        "multiscript",
         "Noncopyable",
         "nonisolated",
         "overridable",
