@@ -19,6 +19,7 @@
         "multiscript",
         "Noncopyable",
         "nonisolated",
+        "objc",
         "overridable",
         "raytracing",
         "representables",
