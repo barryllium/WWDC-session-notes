@@ -4,7 +4,7 @@
 
 ### **Symbol effects**
 
-New, universal animations that can be applied ot any symbol image, even custom symbols
+New, universal animations that can be applied to any symbol image, even custom symbols
 
 ![Animations](images/animate_symbols/animations.png)
 

@@ -326,7 +326,7 @@ public struct SlopeSubsetMacro: MemberMacro {
 
 * Now that we have retrieved all the elements, we can construct the initializer
     * The initializer declaration has a single switch expression
-    * We need ot return each case as well as a default case that returns nil
+    * We need to return each case as well as a default case that returns nil
     * We can either print the syntax tree like we did previously, or we can read SwiftSyntax's documentation
         * We'll do the latter, and start by constructing an `InitializerDeclSyntax`
             * Allows us to use a for loop inside the result builder to iterate over all the elements

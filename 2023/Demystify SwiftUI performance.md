@@ -269,7 +269,7 @@ List {
         * The same can be true if you use `AnyView` in our `ForEach`
 * We also could use an inline filter like in the second code example below
     * This gives us a constant number of views per element, which is good
-    * _But_, the inline filter is linear over the collection, so if the `.filter` operation becomes expensive, this could lead ot a slow update
+    * _But_, the inline filter is linear over the collection, so if the `.filter` operation becomes expensive, this could lead to a slow update
 
 ```swift
 List {

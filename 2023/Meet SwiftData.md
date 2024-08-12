@@ -113,7 +113,7 @@ struct TripsApp: App {
 
 #### ModelContext
 
-* Observe all the changes to your models and provide many of the actions ot operate on them
+* Observe all the changes to your models and provide many of the actions to operate on them
     * Tracking updates
     * Fetching models
     * Saving changes

@@ -34,7 +34,7 @@
         * May use more text surrounding the selection to make sure the model is aware of the context of the selected text
     * Fully supports rich text by using attributed strings
         * Preserves styles, links, and attachments as long as the relevant text is still in the rewritten text
-    * If the text view supports lists and tables, NSTextList and NSTextTable are sent ot the storage
+    * If the text view supports lists and tables, NSTextList and NSTextTable are sent to the storage
         * Can control if the text view will handle tables by using `WritingToolsAllowedInputOptions`
 * New text view delegate methods for Writing Tools
     * In `textViewWritingToolsWillBegin`,  can prepare your app states for Writing Tools

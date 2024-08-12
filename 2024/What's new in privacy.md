@@ -41,7 +41,7 @@
         * iOS will use random, per-network MAC addresses
         * When `Rotate Wi-Fi Address` is on for a network, the MAC address will change approximately every two weeks
         * Addresses for forgotten networks will always rotate after at most 24 hours
-    * For public networks, the Rotate Wi-Fi Address setting will default ot a static rotating address
+    * For public networks, the Rotate Wi-Fi Address setting will default to a static rotating address
     * In iOS 18, in Wi-Fi settings, `Private Wi-Fi Address` is now `Rotate Wi-Fi Address`
     * Now provides MAC address rotation in addition to random initialization
     * Default state and behavior of the toggle is based ont eh type of the network a device is connected to
