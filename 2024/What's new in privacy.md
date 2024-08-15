@@ -56,10 +56,10 @@
         * Media extensions
         * Cron (disabled by default)
     * Login items and extensions now live in a single place in macOS System Settings - `General -> Login Items & Extensions`
-    * Directory Services plug-in, legacy QuickLook plug-ins, and com.apple.loginitems.plist are no longer supported
+    * Directory Services plug-in, legacy QuickLook plug-ins, and `com.apple.loginitems.plist` are no longer supported
 * App group container protection
     * Brings protections of sandboxing to groups of apps, and apps that aren't ready to sandbox all of their data yet
-    * If one app tries to access another app's container, a prompt is presented to allow ro deny access
+    * If one app tries to access another app's container, a prompt is presented to allow or deny access
         * This now extends to shared containers for a group of multiple apps
     * Protected group containers can now be used to protect a subset of the data for an app
     * Best practices
