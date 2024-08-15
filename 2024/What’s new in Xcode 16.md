@@ -87,7 +87,7 @@ extension PreviewTrait where T == Preview.ViewTraits {
     * Can view entities and their components
     * Inspect both built-in and custom properties
     * [**Break into the RealityKit debugger**](https://developer.apple.com/videos/play/wwdc2024-10172) session
-    * [**Run, break, and inspect: explore effective debugging in LLDB**](./) session
+    * [**Run, break, and inspect: explore effective debugging in LLDB**](./Run,%20Break,%20Inspect%20-%20Explore%20effective%20debugging%20in%20LLDB.md) session
 
 ### **Test**
 

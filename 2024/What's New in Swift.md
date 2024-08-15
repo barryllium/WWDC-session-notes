@@ -106,7 +106,7 @@ func rating(videoId: Int, videoName: String, expectedRating: String) {
     * Swift 5.10 limited noncopyable types to concrete types
     * Swift 6 supports noncopyable types in all generic contexts
         * Standard library support for `Optional`, `Result`, `Unsafe Pointers`
-    * [**Consume noncopyable types in Swift**](./) session
+    * [**Consume noncopyable types in Swift**](./Consume%20noncopyable%20types%20in%20Swift.md) session
     * Express unique ownership
     * Fine-grained performance control
 

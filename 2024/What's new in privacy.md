@@ -106,7 +106,7 @@
     * Recommended to add support for passkeys
     * Passkey upgrades are automatic
     * Works with existing login flows
-    * [**Streamline sign-in with passkey upgrades and credential managers**](./) session
+    * [**Streamline sign-in with passkey upgrades and credential managers**](./Streamline%20sign-in%20with%20passkey%20upgrades%20and%20credential%20managers.md) session
 * Private caller ID
     * Open source resources for configuring your server will be available late 2024
     * [**Getting up-to-date calling and blocking information for your app**](https://developer.apple.com/documentation/sms_and_call_reporting/getting_up-to-date_calling_and_blocking_information_for_your_app) documentation

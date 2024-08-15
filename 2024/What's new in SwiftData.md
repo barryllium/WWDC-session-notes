@@ -133,7 +133,7 @@ class Trip {
     * Track inserted, updated, and deleted models
     * Opt in to preserve values on deletion
     * Works with custom data stores
-    * [**Track model changes with SwiftData history**](./) session
+    * [**Track model changes with SwiftData history**](./Track%20model%20changes%20in%20SwiftData%20history.md) session
 
 ### **Tailor a container**
 
