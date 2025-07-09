@@ -2,7 +2,7 @@
 
 ---
 
-### Introduction
+### **Introduction**
 
 * In the foreground, the app itself and everything it needs frameworks, assets, and more are loaded into memory
     * The app’s interface is the focus on the device, and your app is defined as foregrounded
@@ -14,7 +14,7 @@
 
 ![App States](./images/background/app_states.png)
 
-### Behaviors and constraints
+### **Behaviors and constraints**
 
 * Background execution is not guaranteed - it's opportunistic, discretionary, and tightly managed
 
@@ -59,7 +59,7 @@
 * Is the work critical to app state and freshness?
 * Does the work require consent or input?
 
-### Background task APIs
+### **Background task APIs**
 
 ![Background Runtime](./images/background/runtime.png)
 
@@ -161,7 +161,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-### Continued processing task
+### **Continued processing task**
 
 * `BGContinuedProcessingTask` - new in iOS 26
 * Allows you to continue work even after the app is backgrounded, with a system providing UI to communicate progress
