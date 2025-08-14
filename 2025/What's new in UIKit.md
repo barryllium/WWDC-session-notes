@@ -9,7 +9,7 @@
 * New background extension view, which allows content to surface under the sidebar’s large glass platter, preserving visual continuity
 * New glass material for custom components and the new scroll edge effect for content to gracefully fade as it scrolls under the glass platters
     * Enhances legibility of bar buttons and other controls
-* [Build a UIKit app with the new design](./Build%20a%20UIKit%20app%20with%20the%20new%20design.md) Session
+* [Build a UIKit app with the new design](https://developer.apple.com/videos/play/wwdc2025/284/) Session
 * [Get to know the new design system](./Get%20to%20know%20the%20new%20design%20system.md) Session
 
 ### **Containers and adaptivity**
