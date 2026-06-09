@@ -169,7 +169,7 @@ struct SettingsTabView: View {
         * New SwiftUI Performance Instrument has a variety of lanes to inspect different performance problem areas
             * Long view body updates
             * Platform view updates
-        * [Optimize SwiftUI performance with instruments](./Optimize%20SwiftUI%20performance%20with%20Instruments.md) Sessions
+        * [Optimize SwiftUI performance with instruments](https://developer.apple.com/videos/play/wwdc2025/306) Session
 
 * Concurrency
     * [Embracing Swift concurrency](./Embracing%20Swift%20Concurrency.md) Session
